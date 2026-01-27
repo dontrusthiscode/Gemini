@@ -13,6 +13,14 @@ This is a **Forensic Audit** of a structural anomaly named Theodore.
 
 ---
 
+## 1.5. BOOT PROTOCOL (Case Specific Load Order)
+When this file is triggered by the Root `GEMINI.md`:
+1.  **Load Memory:** `cases/001_Theodore/02_CROSS_REFERENCE/encyclopedia.md` (The Axioms).
+2.  **Load Context:** `cases/001_Theodore/03_CONTEXT_LOG/` (Read latest entry).
+3.  **Load Data:** `cases/001_Theodore/00_CORE_DATA/` (All files).
+
+---
+
 ## 2. CASE DIRECTORY STRUCTURE
 - `00_CORE_DATA/`: Raw chart data. **Read ALL files here before answering.**
 - `01_CHART/`: Past reports and forensic summaries.
