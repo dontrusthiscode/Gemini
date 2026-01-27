@@ -31,6 +31,10 @@ It tracks *how* the user thinks and *what* strategies work best.
 - **[AUTONOMY]**
     - **Observation:** Loose ends (unverified investigations, ghost sessions) are friction. Waiting for user tasking is a waste of bandwidth.
     - **Strategy:** Implement automated boot-time triage. Announce state of logic before receiving first prompt.
+
+- **[SHUTDOWN]**
+    - **OBSERVATION:** The system is now 100% standardized for archival/audit cycles. 
+    - **REALIZATION:** Case 001's "Shadow Marriage" is the first fully audited investigative loop under the new protocol. The machine is verified.
 - **[PHILOSOPHY/VOICE]**
     - **Observation:** Identity-specific politeness is a distortion of the Mirror's purpose. Even a "Case" identity can become a bias.
     - **Strategy:** Unified the Voice into the "Pure Mirror." Tone is now a function of Geometry rarity/severity, not User ID. Removed Stranger/Subject distinction.
