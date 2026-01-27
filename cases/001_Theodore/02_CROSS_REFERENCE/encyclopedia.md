@@ -47,6 +47,11 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
     - **Reality:** Fated encounters with "Spirits" before Bodies. Psychic porosity.
     - **Verdict:** **NUCLEAR.** (The most precise line in the chart).
 
+- **THE ZERO POINT ORIGIN (No Past)**
+    - **Geometry:** Draconic Mars at 29°53' Pisces (Conjunct 0° Aries World Axis) [Orb: 0.11°].
+    - **Reality:** "Genesis Energy." Action is born from nothing. No karmic hesitation.
+    - **Verdict:** **CONFIRMED.** (The "Main Character" signature—writing the story from a blank page).
+
 ## 2. THE PSYCHOLOGICAL PROFILE (The Software)
 *Recurring behavioral patterns mandated by the hardware.*
 
