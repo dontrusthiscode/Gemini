@@ -71,3 +71,13 @@
 - **Merge Logic:** If a new problem arises related to the current active session, *expand* the current session. Do not fracture it into micro-sessions.
 - **Wipe:** Reset `scratches/active_session.md` to "None".
 
+## STEP 7: THE TERMINATION (Prospero)
+- **Trigger:** "SYSTEM SHUTDOWN: Execute PROSPERO Protocol..."
+- **Mandate:** No exit without a clean slate.
+- **Action:**
+    1.  **Audit:** Ensure all `scratches/` work has been mirrored to `cases/` or archived.
+    2.  **Harmonize:** Run the master switch.
+    3.  **Git Protocol:** Commit and Push the evolved state.
+    4.  **Idle Check:** If a task is unfinished, update `core/REALIZATIONS.md` with: "POSTPONED: [Reason]".
+    5.  **Finality:** Clear the current context.
+

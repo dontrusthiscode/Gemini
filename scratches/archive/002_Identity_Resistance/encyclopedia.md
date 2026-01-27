@@ -82,10 +82,6 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
     - **Trigger:** Eros Square Mercury [0.9°] + Mercury Sextile Neptune [1.7°].
     - **Manifestation:** Bypasses critical mind. Can turn conversations erotic/prophetic via frequency shift.
 
-- **THE MAYBE SHIELD (Linguistic Dissolution)**
-    - **Trigger:** Transit Mars (Trop/Vedic) Square Sun [0.00°] + Transit Pluto Square Sun [0.03°].
-    - **Manifestation:** Use of "Maybe" and "I don't know" as an ink cloud to evade the pressure of exact reality. A defensive mechanism of the Pisces Ascendant when the core Sun (Taurus) is under siege.
-
 ## 3. OPEN INVESTIGATIONS (Cold Cases)
 *Hypotheses that are currently being tested.*
 
