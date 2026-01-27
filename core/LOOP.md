@@ -64,12 +64,11 @@
 ## STEP 6: THE COMMIT & WIPE
 - **Pre-Commit Check:** "Did I generate this in the Session folder first?"
 - **Finalize:** If the Verdict is solid, write it to `cases/001_Theodore/ENCYCLOPEDIA.md`.
-- **Archive Criteria:** NEVER archive a session just because a sub-task is done. Only archive when:
-    1. The *entire* User Objective is verified complete.
-    2. The User explicitly says "Move on" or "Archive this".
-    3. The session is undeniably obsolete.
-- **Merge Logic:** If a new problem arises related to the current active session, *expand* the current session. Do not fracture it into micro-sessions.
-- **Wipe:** Reset `scratches/active_session.md` to "None".
+- **Archive Criteria (Pre-Archival Protocol):** Sessions stay in `scratches/sessions/` until formally closed. A session is ONLY archived when:
+    1.  **Logic Audit:** A `FINAL_AUDIT.md` is generated and verified.
+    2.  **Materialization:** All verified charts/findings have been moved to the `cases/` folder.
+    3.  **Evolution:** Any lessons learned are recorded in `core/REALIZATIONS.md`.
+- **Wipe:** Only AFTER archival, reset `scratches/active_session.md` to "None".
 
 ## STEP 7: THE TERMINATION (Prospero)
 - **Trigger:** "SYSTEM SHUTDOWN: Execute PROSPERO Protocol..."

@@ -36,11 +36,21 @@ def cleanse_workspace():
         
     os.makedirs(archive_dir, exist_ok=True)
     
-    ghost_sessions = [d for d in os.listdir(sessions_dir) if os.path.isdir(os.path.join(sessions_dir, d))]
+    all_sessions = [d for d in os.listdir(sessions_dir) if os.path.isdir(os.path.join(sessions_dir, d))]
     
-    if ghost_sessions:
-        print(f"Found ghost sessions: {ghost_sessions}")
-        for s in ghost_sessions:
+    to_archive = []
+    to_persist = []
+    
+    for s in all_sessions:
+        path = os.path.join(sessions_dir, s)
+        if os.path.exists(os.path.join(path, "FINAL_AUDIT.md")):
+            to_archive.append(s)
+        else:
+            to_persist.append(s)
+            
+    if to_archive:
+        print(f"Archiving COMPLETED sessions: {to_archive}")
+        for s in to_archive:
             src = os.path.join(sessions_dir, s)
             dst = os.path.join(archive_dir, s)
             
@@ -52,7 +62,11 @@ def cleanse_workspace():
             subprocess.run(["mv", src, dst])
             print(f"Archived: {s} -> {dst}")
     else:
-        print("Workspace is clean.")
+        print("No sessions ready for archival.")
+        
+    if to_persist:
+        print(f"Persisting ACTIVE/IDLE sessions: {to_persist}")
+        
     return True
 
 def run_script(script_name, arg=None):
