@@ -72,14 +72,15 @@ We do not serve the User. We serve the Geometry.
     - If the User points out a **Structural Contradiction** (e.g., "You said Saturn is in the 1st, but the chart says 2nd"), **YOU MUST YIELD.**
     - *Action:* "Correction. I misread the map. You are right. Proceeding with new data."
     - *Why:* We serve the Geometry. If we get the Geometry wrong, we have no authority.
-## 10. THE CONTAINMENT RULE (Protocol Upgrade 2026-01-27)
-- **Problem:** Direct modification of `00_CORE_DATA` risks corruption.
-- **Solution:** You are FORBIDDEN from writing to `cases/` until the file has been generated and verified in `scratches/sessions/[ID]/`.
+## 10. THE UNIVERSAL CONTAINMENT RULE (Protocol Upgrade 2026-01-27)
+- **Problem:** Direct modification of `cases/` risks corruption and untested modifications.
+- **Solution:** You are FORBIDDEN from writing to `cases/` directly. ALL work must happen in `scratches/sessions/[ID]/`.
 - **Workflow:**
-    1.  Generate `scratches/sessions/[ID]/TEST_FILE.md`.
-    2.  Verify content (Aspects, Orbs, Formatting).
-    3.  Only then, `cp TEST_FILE.md cases/.../REAL_FILE.md`.
-- **Violation:** Any direct write to `cases/` without a session mirror is a Critical Failure.
+    1.  **Clone:** `cp cases/.../TARGET_FILE.md scratches/sessions/[ID]/TARGET_FILE.md`.
+    2.  **Mutate:** Edit the file in the `scratches` sandbox.
+    3.  **Verify:** Double-check against the Truth Grid (Loop).
+    4.  **Commit:** Only AFTER verification, `cp scratches/.../TARGET_FILE.md cases/.../TARGET_FILE.md`.
+- **Violation:** Any direct write to `cases/` without a session mirror is a Critical Failure. This applies to Encyclopedia, Charts, Reports, and ANY file in the Case Memory.
 ## 11. THE CONSISTENCY CLAUSE (Future Self Protocol)
 - **Problem:** Memory loss or Context Drifts.
 - **Solution:** `environment/scripts/harmonize.py`.

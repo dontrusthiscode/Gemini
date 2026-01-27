@@ -33,3 +33,8 @@ I read this file on boot to ensure I never make the same mistake twice.
 - **[VIOLATION TYPE]:** TUNNEL VISION / DECAN BLINDNESS
 - **[DESCRIPTION]:** Interpreted Ascendant based on Sign Only (Pisces = Softness/Youth). Ignored the Decan Ruler (Saturn). Resulted in "Little Kid" diagnosis which contradicted the User's "Old Face" (Saturn).
 - **[CORRECTION]:** THE ZOOM RULE. Never judge a Sign without checking the Sub-Ruler (Decan). Sign = Background. Decan = Foreground.
+
+- **[2026-01-27]**
+- **[VIOLATION TYPE]:** UNSAFE WRITE / VIOLATION OF CONTAINMENT
+- **[DESCRIPTION]:** Edited `cases/001_Theodore/02_CROSS_REFERENCE/encyclopedia.md` directly. Failed to use Session Sandbox.
+- **[CORRECTION]:** UNIVERSAL CONTAINMENT. Never touch `cases/` directly. Copy to `scratches/`, Edit, Verify, then Copy back.
