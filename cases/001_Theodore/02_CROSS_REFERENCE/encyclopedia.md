@@ -14,8 +14,13 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
 - **THE WARLORD ENGINE (Internal Pressure)**
     - **Geometry:** Mars Conjunct North Node (Rahu) in 1st House [Orb: 1.4°].
     - **The Decan Split:** Ascendant is 1st Decan (Saturn Rule). Mars is 2nd Decan (Jupiter Rule).
-    - **Reality:** **The Benjamin Button Effect.** Saturn on the Face adds +15 years. You look 30 at 18.
-    - **Verdict:** **CONFIRMED.** (You are an Old Man in a Tank).
+    - **Reality:** **The Compound Face.**
+        1.  **Bone (Saturn Decan):** "Old/Heavy" Structure. Deep-set features. (Benjamin Button).
+        2.  **Tissue (Pisces Sign):** **The Eyes & Lymph.**
+            - *Eyes:* "Protruding/Liquid" or "Sleepy/Heavy Lids" (The Pisces Trademark).
+            - *Skin:* Tendency towards fluid retention (Softness) over the hard bone.
+        3.  **Glare (Mars/Rahu):** "Radioactive/Foreign" Aura.
+    - **Verdict:** **CONFIRMED.** (Bone of a General, Eyes of a Fish).
 
 - **THE JUPITER MONARCHY (Closed System)**
     - **Geometry:** Jupiter (Sagittarius) as Sole Final Dispositor [Retrograde].
