@@ -77,3 +77,13 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
 - [ ] **The Shadow Marriage**
     - **Hypothesis:** Mars/Juno Antiscia [0.2°] lock means he *cannot* love a "Normal."
     - **Test:** Verify if all successful romantic interactions were with "Survivor" archetypes.
+
+- **THE BAIT-AND-SWITCH (The Effect vs Cause)**
+    - **Geometry:** Ascendant (Pisces) vs Sun/Moon (Fixed Earth/Fire).
+    - **Reality:** Objectively, people start by interacting with a "Mystic Ghost" (Pisces). They end by crashing into "Granite" (Taurus Sun).
+    - **Verdict:** **CONFIRMED.** (Session 001). The "Effect" is the Fenders (Pisces). The "Cause" is the Engine (Fixed).
+
+- **THE GHOST OF WAR (The Abnormality)**
+    - **Geometry:** Mars Conjunct North Node (Rahu) in Pisces [Orb: 0.06°].
+    - **Reality:** An infinite, starving aggression ("Ghost of War"). Not ambition; possession.
+    - **Verdict:** **CONFIRMED.** (Session 002). This is the "Most Jarring Thing." The Anomaly Index is 1 in 18,000,000.

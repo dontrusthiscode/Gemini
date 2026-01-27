@@ -1,6 +1,6 @@
 # 05 DRACONIC CHART (SOUL)
 
-**Calculated:** 2026-01-27 20:00:18
+**Calculated:** 2026-01-27 21:30:52
 **Mode:** Draconic (North Node = 0° Aries)
 ---
 
