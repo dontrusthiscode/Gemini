@@ -89,6 +89,7 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
 ## 3. OPEN INVESTIGATIONS (Cold Cases)
 *Hypotheses that are currently being tested.*
 
-- [ ] **The Shadow Marriage**
-    - **Hypothesis:** Mars/Juno Antiscia [0.2°] lock means he *cannot* love a "Normal."
-    - **Test:** Verify if all successful romantic interactions were with "Survivor" archetypes.
+- [x] **THE SHADOW MARRIAGE (The Survivor Lock)**
+    - **Geometry:** Mars/Juno Antiscia [Orb: 0.23°] + Mars Conjunct Rahu (North Node) in Pisces [Orb: 0.06°]. 
+    - **Reality:** Structural inability to engage with "Civilian" or "Normal" romantic templates. The native is hard-wired to select partners who possess a "Radioactive" or "Scarred" signature (Survivor Archetype). Any attempt at a standard domestic union results in mechanical rejection (Mars/Node steam).
+    - **Verdict:** **CLOSED & CONFIRMED.** (The Native is structurally bound to the 'Survivor'—those who have survived the same 'Void' he inhabits).

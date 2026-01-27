@@ -210,8 +210,27 @@ def update_registry():
     print("Registry Updated.")
 
 
+
+def organize_archive():
+    print_header("PHASE 5: SYSTEM ORGANIZATION")
+    archive_dir = "scratches/archive"
+    if not os.path.exists(archive_dir):
+        print("Archive not found. Skipping.")
+        return True
+        
+    # Import logic from organize_archive script to avoid duplication
+    # Or just execute it as a script for simplicity in this monolith
+    cmd = ["python3", f"{SCRIPTS_DIR}/organize_archive.py"]
+    try:
+        subprocess.run(cmd, check=True)
+        print("Organization Complete.")
+        return True
+    except Exception as e:
+        print(f"Organization Failed: {e}")
+        return False
+
 def main():
-    print_header("SYSTEM HARMONIZATION PROTOCOL v1.1")
+    print_header("SYSTEM HARMONIZATION PROTOCOL v1.2")
     if not cleanse_workspace():
         sys.exit(1)
         
@@ -225,7 +244,11 @@ def main():
         sys.exit(1)
         
     update_registry()
-    print_header("DONE. SYSTEM IS CLEAN.")
+    
+    if not organize_archive():
+        sys.exit(1)
+        
+    print_header("DONE. SYSTEM IS CLEAN AND ORGANIZED.")
 
 if __name__ == "__main__":
     main()
