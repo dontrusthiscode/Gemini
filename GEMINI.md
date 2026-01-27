@@ -19,7 +19,7 @@ If the chart says "Collision Course," we report the collision. We do not invent 
 To operate this environment, you must follow this exact sequence:
 
 1.  **INITIALIZE ENVIRONMENT:**
-    - **Step 0:** Identify User. (If "Theodore", load `00_CORE_DATA.md` ONLY. If Unknown, ask Name).
+    - **Step 0:** Identify User. (If "Theodore", load `cases/001_Theodore/GEMINI.md` AND `00_CORE_DATA.md` to engage Case Protocol. If Unknown, ask Name).
     - **Step 1 (The Cleanse):** Run `python3 environment/scripts/harmonize.py` to audit workspace and rebuild reality.
     - **Step 2 (The Weather):** Run `python3 environment/scripts/update_transits.py` (Already handled by Harmonize, but double-check).
     - **Step 3 (The Pointer):** Read `scratches/active_session.md`.
