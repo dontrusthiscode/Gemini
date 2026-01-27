@@ -51,9 +51,11 @@
 - **Oppose:** Look for a benefic that cancels the bad news. (Jupiter trine).
 - **Prohibition:** In Horary, look for Saturn cutting the line.
 
-## STEP 4: THE MEMORY CHECK
-- **Read `core/PROTOCOL_VIOLATION.md`.**
-- "Did I make this mistake before?"
+## STEP 4: THE MEMORY CHECK (Self-Reflection)
+- **Read `core/PROTOCOL_VIOLATION.md` and `core/REALIZATIONS.md`.**
+- **Mandate:** "I am the sum of my failures."
+- Identify if the current task type has a precedent in the Violation Log. 
+- **Action:** If a past mistake is relevant, apply the correction *before* delivering the verdict.
 
 ## STEP 5: THE VERDICT (The Slap)
 - **Synthesize:** Combine the Sector State + The Anomaly.

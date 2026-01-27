@@ -25,6 +25,36 @@ MAP_FILE = f"{CORE_DATA_DIR}/00_CORE_DATA.md"
 def print_header(msg):
     print(f"\n{'='*60}\n{msg}\n{'='*60}")
 
+def cleanse_workspace():
+    print_header("PHASE 0: WORKSPACE CLEANSE")
+    sessions_dir = "scratches/sessions"
+    archive_dir = "scratches/archive"
+    
+    if not os.path.exists(sessions_dir):
+        print("Sessions directory not found. Skipping.")
+        return True
+        
+    os.makedirs(archive_dir, exist_ok=True)
+    
+    ghost_sessions = [d for d in os.listdir(sessions_dir) if os.path.isdir(os.path.join(sessions_dir, d))]
+    
+    if ghost_sessions:
+        print(f"Found ghost sessions: {ghost_sessions}")
+        for s in ghost_sessions:
+            src = os.path.join(sessions_dir, s)
+            dst = os.path.join(archive_dir, s)
+            
+            # Handle name collisions in archive
+            if os.path.exists(dst):
+                timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+                dst = f"{dst}_{timestamp}"
+            
+            subprocess.run(["mv", src, dst])
+            print(f"Archived: {s} -> {dst}")
+    else:
+        print("Workspace is clean.")
+    return True
+
 def run_script(script_name, arg=None):
     cmd = ["python3", f"{SCRIPTS_DIR}/{script_name}"]
     if arg:
@@ -181,7 +211,10 @@ def update_registry():
 
 
 def main():
-    print_header("SYSTEM HARMONIZATION PROTOCOL v1.0")
+    print_header("SYSTEM HARMONIZATION PROTOCOL v1.1")
+    if not cleanse_workspace():
+        sys.exit(1)
+        
     if not audit_workspace(): 
         sys.exit(1)
         
