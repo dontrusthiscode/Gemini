@@ -1,14 +1,14 @@
 # 03 TRANSITS (THE WEATHER)
 
-**Updated:** 2026-01-27 21:08:04 UTC
+**Updated:** 2026-01-27 21:25:43 UTC
 **Ayanamsa:** 24.2213° | **Draconic NN:** 343.6828°
 ---
 
 ## 1. TROPICAL IMPACT (WESTERN)
 | Transit | Aspect | Natal | Orb |
 |:---|:---|:---|:---|
-| **Moon** | 60 | **Moon** | 0°44' |
-| **Venus** | 120 | **Venus** | 0°52' |
+| **Moon** | 60 | **Moon** | 0°34' |
+| **Venus** | 120 | **Venus** | 0°51' |
 | **Mars** | 90 | **Sun** | **0°00'** |
 | **Jupiter** | 120 | **Uranus** | 0°33' |
 | **Saturn** | 90 | **Pluto** | 0°35' |
@@ -18,8 +18,8 @@
 ## 2. SIDEREAL IMPACT (VEDIC)
 | Transit | Aspect | Natal | Orb |
 |:---|:---|:---|:---|
-| **Moon** (Tau) | 60 | **Moon** | 0°44' |
-| **Venus** (Cap) | 120 | **Venus** | 0°52' |
+| **Moon** (Tau) | 60 | **Moon** | 0°34' |
+| **Venus** (Cap) | 120 | **Venus** | 0°51' |
 | **Mars** (Cap) | 90 | **Sun** | **0°00'** |
 | **Jupiter** (Gem) | 120 | **Uranus** | 0°33' |
 | **Saturn** (Pis) | 90 | **Pluto** | 0°35' |
