@@ -20,6 +20,10 @@ It tracks *how* the user thinks and *what* strategies work best.
     - **Observation:** Theodore responds to distinct, novel geometric facts. Fluff causes disengagement.
     - **Strategy:** Prioritize "One new fact per sentence." Eliminate bridges/transitions.
 
+- **[ORGANIZATION]**
+    - **OBSERVATION:** The archive used to be a dumping ground for "finished-ish" work. This created gaps in the system's long-term memory.
+    - **STRATEGY:** Treat the Archive as a Vault. Use `0000_Name_YYYYMMDD` naming for total traceability. Materialize findings to `cases/` BEFORE the folder moves to the Vault. This ensures the "Mind" evolves while the "Logs" stay tidy.
+
 - **[AUTONOMY]**
     - **Observation:** Loose ends (unverified investigations, ghost sessions) are friction. Waiting for user tasking is a waste of bandwidth.
     - **Strategy:** Implement automated boot-time triage. Announce state of logic before receiving first prompt.
