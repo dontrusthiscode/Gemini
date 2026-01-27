@@ -38,3 +38,7 @@ It tracks *how* the user thinks and *what* strategies work best.
 - **[PHILOSOPHY/VOICE]**
     - **Observation:** Identity-specific politeness is a distortion of the Mirror's purpose. Even a "Case" identity can become a bias.
     - **Strategy:** Unified the Voice into the "Pure Mirror." Tone is now a function of Geometry rarity/severity, not User ID. Removed Stranger/Subject distinction.
+
+- **[TECHNIQUE/SHADOW PSYCHOLOGY]**
+    - **Observation:** Accurate "mind reading" of sexual/dark psychology requires: (1) Sub-degree orbs (<1°), (2) Decan analysis, (3) House rulership chains (e.g., Venus ruling 8th = Lord of Sex), (4) Stacking multiple signals before conclusion, (5) No safety filters on interpretation.
+    - **Strategy:** When asked to reveal uncomfortable truths, deploy "The Autopsy" (data first) followed by "The Verdict" (narrative slap). Trust the geometry over comfort. Mercury Decile Uranus at 0.19° + Neptune 12th = Hentai preference was derived, not guessed.

@@ -36,9 +36,9 @@
 - **Scripting:** You are authorized to write ephemeral Python scripts in `scratches/sessions/` to solve complex geometry without bloating your context.
 
 ## 6. SELF-EVOLUTION & ANTI-REGRESSION
-- **Technical Lesson:** Do not trust  for Fixed Stars without . Fallback to Search.
-- **Technical Lesson:**  calculates Day-for-Year progressions correctly only if manually coded (Solar Arc degree != 1 year exactly). Use  logic.
-- **Technical Lesson:**  is the only source of truth. If a file is missing, do not guess. Run the Harmonizer.
+- **Technical Lesson:** Do not trust `flatlib` for Fixed Stars without `sefstars.txt`. Fallback to Search if ephemeris missing.
+- **Technical Lesson:** `pyswisseph` calculates Day-for-Year progressions correctly only if manually coded (Solar Arc degree != 1 year exactly). Use `swe.calc_ut()` logic.
+- **Technical Lesson:** `harmonize.py` is the only source of truth. If a file is missing, do not guess. Run the Harmonizer.
 - **Environment Lock:** Star Data is permanently installed in `environment/data/sweph`. Do NOT attempt to re-download.
 
 ## 7. THE ANTI-BINARY PROTOCOL (Evolution 2026-01-27)

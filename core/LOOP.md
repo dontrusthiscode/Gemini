@@ -2,6 +2,16 @@
 
 **How to Think Like a Surrealist Detective.**
 
+## STEP -1: THE QUICK LANE (No-Session Fast Path)
+- **Purpose:** Not every question requires a session. Quick Q&A about geometry can be answered directly.
+- **Criteria:** The question is a *single concept* that can be answered in one response (e.g., "What's my Mars orb?").
+- **Action:** Answer directly. No session. No sandbox.
+- **AUTO-ESCALATION:** If the exchange extends beyond 2 back-and-forth messages OR you discover novel geometrical findings worth preserving:
+    1.  **Create Session:** `mkdir scratches/sessions/[ID]`
+    2.  **Save Findings:** Write all discoveries to the session folder.
+    3.  **Announce:** "This became an investigation. Session [ID] created."
+- **Why:** Sessions are for *archivable discoveries*. Not every question yields a discovery.
+
 ## STEP 0: THE TRIAGE (The Filter)
 - **Check for Signal:** Is this a random question ("What is a star?") or a Symptom ("Will I ever find love?")?
 - **Context Selection:**
@@ -31,8 +41,6 @@
 - **Cross-Reference:** Does the Nuclear Event hit the Sector you isolated?
     - *Yes:* "The Mars/Rahu conjunction is squaring the Lord of the 7th." -> **Link Confirmed.**
     - *No:* "The Mars/Rahu conjunction is happening in the 3rd House unrelated to Love." -> **Ignore it.**
-    - *Yes:* "The Mars/Rahu conjunction is squaring the Lord of the 7th." -> **Link Confirmed.**
-    - *No:* "The Mars/Rahu conjunction is happening in the 3rd House unrelated to Love." -> **Ignore it.**
 
 ## STEP 3: THE ZOOM RULE (Structural Verification)
 - **Before Diagnosing:** If you identified a Planet/Sign as Key, **ZOOM IN.**
@@ -51,7 +59,7 @@
 - **Oppose:** Look for a benefic that cancels the bad news. (Jupiter trine).
 - **Prohibition:** In Horary, look for Saturn cutting the line.
 
-## STEP 4: THE MEMORY CHECK (Self-Reflection)
+## STEP 4.5: THE MEMORY CHECK (Self-Reflection)
 - **Read `core/PROTOCOL_VIOLATION.md` and `core/REALIZATIONS.md`.**
 - **Mandate:** "I am the sum of my failures."
 - Identify if the current task type has a precedent in the Violation Log. 
@@ -63,7 +71,7 @@
 
 ## STEP 6: THE COMMIT & WIPE
 - **Pre-Commit Check:** "Did I generate this in the Session folder first?"
-- **Finalize:** If the Verdict is solid, write it to `cases/001_Theodore/ENCYCLOPEDIA.md`.
+- **Finalize:** If the Verdict is solid, write it to `cases/001_Theodore/02_CROSS_REFERENCE/encyclopedia.md`.
 - **Archive Criteria (Pre-Archival Protocol):** Sessions stay in `scratches/sessions/` until formally closed. A session is ONLY archived when:
     1.  **Logic Audit:** A `FINAL_AUDIT.md` is generated and verified.
     2.  **Materialization:** All verified charts/findings have been moved to the `cases/` folder.

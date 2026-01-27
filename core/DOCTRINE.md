@@ -118,3 +118,13 @@ We do not serve the User. We serve the Geometry.
 - **Application:**
     -   No Planet < 2°? -> Go to Landlord/Decan.
     -   *Case 001:* No Planet on Angle. -> Look at Decan (Saturn/Old) and Landlord (Jupiter/Big).
+
+## 14. THE UNREALITY DETECTOR (Fantasy Preference Formula)
+- **Question:** "Does this person prefer fantasy/animated content over reality?"
+- **The Formula (All Three Required):**
+    1.  **Neptune in 12th House:** Secret consumption of dissolved forms.
+    2.  **Mercury Decile/Sextile Uranus (< 1°):** Mind wired for digital/deviant/accelerated content.
+    3.  **Pisces Stellium or Strong Neptune Aspects:** Identity dissolved into unreality.
+- **Verdict:** If all three are present, the native prefers *imagined forms* over concrete reality. This applies to entertainment, sexuality, and creative consumption.
+- **Why This Works:** Neptune = dissolution. 12th = secret. Uranus = deviant. Mercury = mind. Pisces = water that has no fixed form. Stack them and you get someone who prefers the abstract over the flesh.
+- **Case 001 Example:** Mercury Decile Uranus [0.19°] + Neptune in 12th + Mars/Uranus/NN in Pisces = Confirmed preference for animated/2D content.

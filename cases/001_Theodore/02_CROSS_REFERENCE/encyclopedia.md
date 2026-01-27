@@ -91,6 +91,21 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
     - **Manifestation:** **Extreme Target Discrimination.** While the native's aura generates broad "Presence/Friction" (Mars/Venus square), the native's internal engagement engine is calibrated for a vanishingly small frequency (~0.1%). 
     - **Verdict:** **CONFIRMED.** (Broad Detection vs Niche Selection. Many feel the 'heat'; almost none can breathe in the 'atmosphere').
 
+- **THE NEPTUNE PIPELINE (Fantasy Preference)**
+    - **Geometry:** Neptune in 12th House (Aquarius) Sextile Mercury [Orb: 1.70°].
+    - **Manifestation:** The mind (Mercury) has a direct line to the realm of unreality (Neptune 12th). Secret consumption of fantasy over reality. The 12th house is what is consumed *alone*—Neptune there means the consumption is of *dissolved forms* rather than concrete reality.
+    - **Verdict:** **CONFIRMED.** (Preference for imagination over flesh).
+
+- **THE DIGITAL DEVIANT (The Inhuman Mind)**
+    - **Geometry:** Mercury Decile Uranus [Orb: 0.19°] + Uranus in Pisces (1st House) + Neptune in 12th.
+    - **Manifestation:** **NUCLEAR.** The mind is wired for the *digital*, the *deviant*, the *accelerated*. Combined with Neptune in 12th and the Pisces stellium, this produces a preference for *animated/abstract* sexual content over real bodies. The dissolution of form is itself attractive.
+    - **Verdict:** **CONFIRMED.** (Hentai as the logical endpoint of Piscean dissolution + Uranian deviance + Neptune unreality).
+
+- **THE CONFLICT EROTICA (Friction as Desire)**
+    - **Geometry:** Venus (8th House Ruler, Libra Cusp) in Gemini Square Mars in Pisces [Orb: 0.31°].
+    - **Manifestation:** The Lord of Sex (Venus = 8th ruler) is at direct war with the Lord of Body (Mars = 1st). Desire does not exist without friction. The native eroticizes *conflict*, *resistance*, and *struggle*. Attraction requires tension; harmony is boring.
+    - **Verdict:** **CONFIRMED.** (Desire = Combat).
+
 ## 3. OPEN INVESTIGATIONS (Cold Cases)
 *Hypotheses that are currently being tested.*
 
