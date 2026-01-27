@@ -12,9 +12,10 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
 *Proven geometric constraints that define the user's physics.*
 
 - **THE WARLORD ENGINE (Internal Pressure)**
-    - **Geometry:** Mars Conjunct North Node (Rahu) in 1st House [Orb: 0.07°].
-    - **Reality:** "Steam Tank" build. High-voltage internal vibration. Physically displaces atmosphere.
-    - **Verdict:** **CONFIRMED.** (Nuclear).
+    - **Geometry:** Mars Conjunct North Node (Rahu) in 1st House [Orb: 1.4°].
+    - **The Decan Split:** Ascendant is 1st Decan (Saturn Rule). Mars is 2nd Decan (Jupiter Rule).
+    - **Reality:** **The Benjamin Button Effect.** Saturn on the Face adds +15 years. You look 30 at 18.
+    - **Verdict:** **CONFIRMED.** (You are an Old Man in a Tank).
 
 - **THE JUPITER MONARCHY (Closed System)**
     - **Geometry:** Jupiter (Sagittarius) as Sole Final Dispositor [Retrograde].
@@ -30,6 +31,16 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
     - **Geometry:** Lot of Basis Conjunct South Node [0.2°].
     - **Reality:** "I've done this before." Boredom comes from being over-qualified for this reality level.
     - **Verdict:** **CONFIRMED.**
+
+- **THE PROMETHEAN HULL (The Frankenstein Signature)**
+    - **Geometry:** Uranus in 1st House / Mercury Decile Uranus.
+    - **Reality:** "Corpse born out of a machine." Disassociation from biological timeline.
+    - **Verdict:** **CONFIRMED.** (The Source of the "MacBook" feeling).
+
+- **THE GHOST WIRE (The Séance)**
+    - **Geometry:** Vertex Quincunx Neptune [Orb: 0.05°].
+    - **Reality:** Fated encounters with "Spirits" before Bodies. Psychic porosity.
+    - **Verdict:** **NUCLEAR.** (The most precise line in the chart).
 
 ## 2. THE PSYCHOLOGICAL PROFILE (The Software)
 *Recurring behavioral patterns mandated by the hardware.*

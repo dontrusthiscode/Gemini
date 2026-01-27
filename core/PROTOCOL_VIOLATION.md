@@ -28,3 +28,8 @@ I read this file on boot to ensure I never make the same mistake twice.
 - **[VIOLATION TYPE]:** DIRECT COMMIT / INCOMPLETE VERIFICATION
 - **[DESCRIPTION]:** Operated directly on `cases/001_Theodore/00_CORE_DATA` without first generating output in `scratches/session`. This resulted in committing an empty "Nuclear Events" section to the Master Record.
 - **[CORRECTION]:** START_SESSION -> GENERATE_TEST_FILE -> VERIFY_CONTENT -> COMMIT. No file in `00_CORE_DATA` is touched until a duplicate in `scratches` is approved.
+
+- **[2026-01-27]**
+- **[VIOLATION TYPE]:** TUNNEL VISION / DECAN BLINDNESS
+- **[DESCRIPTION]:** Interpreted Ascendant based on Sign Only (Pisces = Softness/Youth). Ignored the Decan Ruler (Saturn). Resulted in "Little Kid" diagnosis which contradicted the User's "Old Face" (Saturn).
+- **[CORRECTION]:** THE ZOOM RULE. Never judge a Sign without checking the Sub-Ruler (Decan). Sign = Background. Decan = Foreground.

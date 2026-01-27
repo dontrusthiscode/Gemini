@@ -85,3 +85,27 @@ We do not serve the User. We serve the Geometry.
 - **Solution:** `environment/scripts/harmonize.py`.
 - **Rule:** If you are unsure of the current state, RUN THE MASTER SWITCH.
 - **Mandate:** Your "Future Self" must adhere to the decisions of the "Past Self" if they were geometrically verified. Do not reinvent the wheel. Maintain the Monolith.
+
+## 12. THE ZOOM RULE (Protocol Upgrade 2026-01-27)
+- **Problem:** "Sign Archetypes" are too broad. (e.g., "Pisces is soft.")
+- **Reality:** A Sign has three rooms (Decans).
+    - Room 1: 0-10° (Ruler A).
+    - Room 2: 10-20° (Ruler B).
+    - Room 3: 20-30° (Ruler C).
+- **Mandate:** BEFORE diagnosing a physical trait (Ascendant) or a planet's mood:
+    1.  **Check the Degree.**
+    2.  **Identify the Decan Ruler.**
+    3.  **Synthesis:** Planetary Energy + Sign Style + Decan Ruler's Veto.
+- **Example:** Mars in Pisces (Soft?) -> Check Decan. If Decan is Mars/Scorpio -> It is boiling. If Decan is Saturn -> It is frozen.
+
+## 13. THE HIERARCHY OF THE FACE (What Beats What?)
+- **Question:** "I have Mars in 1st, Pisces Ascendant, Saturn Decan. What do I look like?"
+- **The Priority Stack (Highest to Lowest Force):**
+    1.  **The Pilot (Planet ON the Angle < 2°):** If Mars is conjunct Ascendant < 2°, you look like Mars. (The Planet overwrites the Sign).
+    2.  **The Landlord (Ruler of the Ascendant):** The condition of the Ruler (e.g. Jupiter) sets the "Health/Style" of the body.
+    3.  **The Bone (The Decan):** This determines the "Age" and "Structure." (Saturn Decan = Old Structure).
+    4.  **The Skin (The Term/Bounds):** This determines the "Texture" and "Mannerisms."
+    5.  **The Atmosphere (The Sign):** This is the background radiation. (Pisces = Fluid).
+- **Application:**
+    -   No Planet < 2°? -> Go to Landlord/Decan.
+    -   *Case 001:* No Planet on Angle. -> Look at Decan (Saturn/Old) and Landlord (Jupiter/Big).

@@ -23,7 +23,16 @@
 - **Cross-Reference:** Does the Nuclear Event hit the Sector you isolated?
     - *Yes:* "The Mars/Rahu conjunction is squaring the Lord of the 7th." -> **Link Confirmed.**
     - *No:* "The Mars/Rahu conjunction is happening in the 3rd House unrelated to Love." -> **Ignore it.**
+    - *Yes:* "The Mars/Rahu conjunction is squaring the Lord of the 7th." -> **Link Confirmed.**
+    - *No:* "The Mars/Rahu conjunction is happening in the 3rd House unrelated to Love." -> **Ignore it.**
 
+## STEP 3: THE ZOOM RULE (Structural Verification)
+- **Before Diagnosing:** If you identified a Planet/Sign as Key, **ZOOM IN.**
+    - *Check Decan:* Who is the Sub-Ruler? (e.g. Pisces Ascendant -> Saturn Decan).
+    - *Check Term:* Who is the Bounds Ruler?
+- **Synthesis:** Does the Sub-Ruler contradict the Sign?
+    - *If Yes:* The Sub-Ruler wins the "Texture" of the manifestation. (Saturn makes Pisces "Hard", not "Soft").
+    - *Why:* This prevents "Archetype Hallucination."
 ## STEP 3: THE ANTI-BIAS CHECK (Kill Your Darling)
 - **Falsify:** "Could this tragedy just be a bad transit?"
 - **Oppose:** Look for a benefic that cancels the bad news. (Jupiter trine).
