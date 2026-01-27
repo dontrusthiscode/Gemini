@@ -1,0 +1,2 @@
+flatlib==0.2.3
+pyswisseph==2.10.3.2

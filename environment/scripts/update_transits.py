@@ -14,6 +14,11 @@ except ImportError:
     print("Error: 'flatlib' or 'pyswisseph' not found.")
     sys.exit(1)
 
+# CONFIG: Set Ephemeris Path for High Precision / Stars
+import os
+ephe_path = os.path.abspath("environment/data/sweph")
+swe.set_ephe_path(ephe_path)
+
 # USER DATA (UPDATED 2026-01-27)
 BIRTH_DATE = Datetime('2007/04/24', '01:15', '+00:00') # 04:15 EEST -> 01:15 UTC
 POS = GeoPos('46n58', '28e52') # 46.9809, 28.8704

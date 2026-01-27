@@ -16,6 +16,12 @@ if len(sys.argv) > 1:
     OUTPUT_DIR = sys.argv[1]
     OUTPUT_PATH = f"{OUTPUT_DIR}/TEST_05_VEDIC_SIDEREAL.md"
 
+# CONFIG: Set Ephemeris Path for High Precision / Stars
+import os
+import swisseph as swe
+ephe_path = os.path.abspath("environment/data/sweph")
+swe.set_ephe_path(ephe_path)
+
 
 def parse_core_data():
     """Parses birth data from the CORE_DATA.md file."""

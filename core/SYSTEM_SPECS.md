@@ -3,6 +3,7 @@
 **Host:** macOS (Apple Silicon)
 **Engine:** Python 3.12 (uv-managed)
 **Ephemeris:** Swiss Ephemeris (High Precision via `pyswisseph`)
+**Data Path:** `environment/data/sweph/` (Contains `sefstars.txt` for Fixed Stars).
 
 ## CAPABILITIES
 - **precision:** 0.0001 arcseconds (limit of ephemeris).
@@ -23,6 +24,8 @@
 - **PRIME DIRECTIVE:** **Python > Search.**
 - **Rule:** If you can calculate it with `flatlib` or `pyswisseph`, DO IT.
 - **Exception:** Only use Web Search for "Impossible Data" or "Outcome Verification" (Reality Checks).
+    - **"Impossible Data" includes:**
+        - **Minor Asteroids:** > 10,000 asteroids are not in our ephemeris. Use Search.
 - **Restrictions:**
     - NO searching for "Interpretations" (e.g. "What does Mars in 12th mean?"). Derivie it from Geometry.
     - NO searching for planetary positions (Use Ephemeris).
@@ -31,3 +34,9 @@
 - **Do not Pollute:** Do not read `05_SOLAR_RETURN.md` for a Horary question. It is trash.
 - **Lazy Loading:** Load `00_CORE_DATA` first. Load specific files ONLY when the *Sector Scan* (Loop Step 1) demands it.
 - **Scripting:** You are authorized to write ephemeral Python scripts in `scratches/sessions/` to solve complex geometry without bloating your context.
+
+## 6. SELF-EVOLUTION & ANTI-REGRESSION
+- **Technical Lesson:** Do not trust  for Fixed Stars without . Fallback to Search.
+- **Technical Lesson:**  calculates Day-for-Year progressions correctly only if manually coded (Solar Arc degree != 1 year exactly). Use  logic.
+- **Technical Lesson:**  is the only source of truth. If a file is missing, do not guess. Run the Harmonizer.
+- **Environment Lock:** Star Data is permanently installed in `environment/data/sweph`. Do NOT attempt to re-download.

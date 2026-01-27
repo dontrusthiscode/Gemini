@@ -16,6 +16,11 @@ except ImportError:
     print("Error: 'flatlib' or 'pyswisseph' not found.")
     sys.exit(1)
 
+# CONFIG: Set Ephemeris Path for High Precision / Stars
+import os
+ephe_path = os.path.abspath("environment/data/sweph")
+swe.set_ephe_path(ephe_path)
+
 # PATHS
 CORE_DATA_PATH = "cases/001_Theodore/00_CORE_DATA/00_CORE_DATA.md"
 

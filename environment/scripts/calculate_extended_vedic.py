@@ -14,6 +14,7 @@ except ImportError:
 CORE_DATA_PATH = "cases/001_Theodore/00_CORE_DATA/00_CORE_DATA.md"
 
 # Output Logic
+# Output Logic
 if len(sys.argv) > 1:
     OUTPUT_DIR = sys.argv[1]
 else:
@@ -21,6 +22,11 @@ else:
     if not os.path.exists(OUTPUT_DIR):
         OUTPUT_DIR = "scratches/harmonization_build"
         os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# CONFIG: Set Ephemeris Path for High Precision / Stars
+import os
+ephe_path = os.path.abspath("environment/data/sweph")
+swe.set_ephe_path(ephe_path)
 
 OUTPUT_DETAILS = f"{OUTPUT_DIR}/TEST_06_VEDIC_DETAILS.md"
 OUTPUT_DASHA = f"{OUTPUT_DIR}/TEST_09_DASHA_TIMELINE.md"

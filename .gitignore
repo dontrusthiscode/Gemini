@@ -12,3 +12,6 @@ scratches/active_session.md
 .venv/
 env/
 venv/
+
+# Secrets
+core/LIFELINE.key
