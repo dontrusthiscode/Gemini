@@ -1,0 +1,23 @@
+{
+  "subject": "Theodore (The Anomaly)",
+  "type": "Draconic (Soul Chart)",
+  "reference": "North Node = 0 Aries",
+  "positions": {
+    "Sun": "Taurus 18.50",
+    "Moon": "Leo 15.87",
+    "Mercury": "Taurus 8.47",
+    "Venus": "Gemini 28.88",
+    "Mars": "Pisces 28.57",
+    "Jupiter": "Capricorn 4.27",
+    "Saturn": "Virgo 3.17",
+    "Uranus": "Aries 2.28",
+    "Neptune": "Pisces 6.77",
+    "Pluto": "Capricorn 13.82",
+    "NorthNode": "Aries 0.00",
+    "Ascendant": "Pisces 23.70"
+  },
+  "critical_conjunctions": [
+    { "type": "Draconic-to-Natal", "aspect": "Moon-Saturn", "orb": 2.3 },
+    { "type": "Draconic-to-Natal", "aspect": "Venus-Pluto Opposition", "orb": 0.05 }
+  ]
+}

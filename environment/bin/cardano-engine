@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+VENV_BIN="$ROOT/projects/cardano-engine/.venv/bin"
+
+if [[ ! -x "$VENV_BIN/cardano-engine" ]]; then
+  echo "Missing executable: $VENV_BIN/cardano-engine" >&2
+  echo "Run setup (inside $ROOT/projects/cardano-engine): uv sync" >&2
+  exit 1
+fi
+
+exec "$VENV_BIN/cardano-engine" "$@"
+

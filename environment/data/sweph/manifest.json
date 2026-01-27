@@ -1,0 +1,451 @@
+{
+  "created_at_utc": "2026-01-18T14:54:31.710576+00:00",
+  "files": [
+    {
+      "name": "list.zip",
+      "sha256": "a2ff7431fa4f3e9b28bb22665e2765f28001f9c4305ee1c622b8d3bc22610513",
+      "size": 7185485
+    },
+    {
+      "name": "seas_00.se1",
+      "sha256": "a6dc18b110778d79eeb3806c8233f0d1c8531ee3076fb0b3b2f05126c9ce54b3",
+      "size": 224351
+    },
+    {
+      "name": "seas_06.se1",
+      "sha256": "2cc1377081aa048277ab62cf84bbbe044177f610fc7ff0dc9710fefafde40180",
+      "size": 223810
+    },
+    {
+      "name": "seas_102.se1",
+      "sha256": "c5eb1a7269d06bac1e6b372ced991c0365953dd14d15c15ba0beee2a9b3de2a4",
+      "size": 229487
+    },
+    {
+      "name": "seas_108.se1",
+      "sha256": "5dba9e3593065adde25ae576709e814f2e4dd5d9ddea7b35fe12c38c4d1cd9f8",
+      "size": 229960
+    },
+    {
+      "name": "seas_114.se1",
+      "sha256": "8b9018f87b2d59ad2ea5e679bb8fa4a810c47c9b5e5c86ad0035ac7952abf43b",
+      "size": 230440
+    },
+    {
+      "name": "seas_12.se1",
+      "sha256": "c9870f7e33eb07fce10e9f9af0106a4c60a2e6421833304f435b492780e6cf6d",
+      "size": 223396
+    },
+    {
+      "name": "seas_120.se1",
+      "sha256": "78ed3c950909a23884f887271716a9691258945b0d42ceb7bc5b17d05953d086",
+      "size": 230613
+    },
+    {
+      "name": "seas_126.se1",
+      "sha256": "63bf4213d5ba47b624f34370d72008019775b78582b723a88fa9774a30149d72",
+      "size": 230569
+    },
+    {
+      "name": "seas_132.se1",
+      "sha256": "fb31d14714e3c231d86264a61d1c44ebe53f3c61daea1b303805f74784d4a978",
+      "size": 230188
+    },
+    {
+      "name": "seas_138.se1",
+      "sha256": "180f707e5dc4364d5fcea34b2637f37bf9bdef12c0b306aff9adc5be3da1f141",
+      "size": 229560
+    },
+    {
+      "name": "seas_144.se1",
+      "sha256": "a755416ab2f4f2409c213269132eaa7b649166da3242f418be84549aa849baba",
+      "size": 228740
+    },
+    {
+      "name": "seas_150.se1",
+      "sha256": "24ccd4d31c678dcddad39311fd7f006795b6f2e868fa83b7d6d06c87ecb10bb9",
+      "size": 227930
+    },
+    {
+      "name": "seas_156.se1",
+      "sha256": "b455d65295aa3ff5e02f04ea144ebf0062cb1c7fad4e841069b477872d34067f",
+      "size": 227064
+    },
+    {
+      "name": "seas_162.se1",
+      "sha256": "47967901a06fd0d62315090fbb910340b0bee9022fffaf1d12a643d3762742db",
+      "size": 226218
+    },
+    {
+      "name": "seas_18.se1",
+      "sha256": "5fd9c2aa1654e37c09a6aeb558076e795409b7dc4bd948ebc0faa7d4a7686b5b",
+      "size": 223002
+    },
+    {
+      "name": "seas_24.se1",
+      "sha256": "1355b16ed80546579756bfb784a3b92f59d907c4cf9eee85cae1318282c1f993",
+      "size": 222674
+    },
+    {
+      "name": "seas_30.se1",
+      "sha256": "3875989c3c585e854466e04b480d0af66d2e16361ca589c2c15a48f3e4ac4d95",
+      "size": 222209
+    },
+    {
+      "name": "seas_36.se1",
+      "sha256": "83a241a9ba697e7fc7f861fbd55a6cce4bfbc15487d88ed42573efb82df344fa",
+      "size": 221567
+    },
+    {
+      "name": "seas_42.se1",
+      "sha256": "0a109edc1a5bf248628704bd893d32ed2ea7ccdae3f2258aad9b8b74b11f9ee2",
+      "size": 221189
+    },
+    {
+      "name": "seas_48.se1",
+      "sha256": "d62d98640142f6f281f08ab319c888fa259e1c26a40678df1c8f0343aa6e0cd8",
+      "size": 221158
+    },
+    {
+      "name": "seas_54.se1",
+      "sha256": "fe5590a277fc893beeccace028621e7b8200e866b052d2592a9916f762a1de2a",
+      "size": 221364
+    },
+    {
+      "name": "seas_60.se1",
+      "sha256": "711c730f0dcdd1476b58339d6eae23640ad205b0dd60790b41b19e68496917e3",
+      "size": 221711
+    },
+    {
+      "name": "seas_66.se1",
+      "sha256": "cba9c54f8347a9f91553827cce53380a48a78b3d97d55ad20f9b473dc51bad35",
+      "size": 222778
+    },
+    {
+      "name": "seas_72.se1",
+      "sha256": "064b4de0d5bf7054e6b3b9097dd172f6e6f336c3a2cc5d787aaeac4c4c6e3d8e",
+      "size": 223888
+    },
+    {
+      "name": "seas_78.se1",
+      "sha256": "4d52191d71e1093026996e1c1c43a486298b5bfb6d1b19f8d0ed0959cbfacf6c",
+      "size": 225184
+    },
+    {
+      "name": "seas_84.se1",
+      "sha256": "b11604f6d392709c23bb0ba54669a95ab618c30def99713237398e281468ee8d",
+      "size": 226457
+    },
+    {
+      "name": "seas_90.se1",
+      "sha256": "4d5e0f5e3dc56fd8905ba421c45a656d05e97c72f6a3d2813623c95573464e9b",
+      "size": 227450
+    },
+    {
+      "name": "seas_96.se1",
+      "sha256": "7ab53a697d4a4911ff6929aff2a0e50bf583a96173732b0128b54e09afe5fc50",
+      "size": 228365
+    },
+    {
+      "name": "seasnam.txt",
+      "sha256": "d07545a597fc015cf7d1f508a4a56d32b134cb2a79dee364cb7cadf06394ea37",
+      "size": 15989147
+    },
+    {
+      "name": "sefstars.txt",
+      "sha256": "18b0dcafbe5b7240773daba2c038a325f5b3fc4163f61e0a7f4e92abd4f517c6",
+      "size": 136618
+    },
+    {
+      "name": "semo_00.se1",
+      "sha256": "dc70f9c3c406988b28bbb40efeabebfb8842b62a5e438cd4c212ba82881e2af4",
+      "size": 1322594
+    },
+    {
+      "name": "semo_06.se1",
+      "sha256": "7584bb6da46992d0f3e14fec4a04987117f1243aad04179d1267981812dcf575",
+      "size": 1316045
+    },
+    {
+      "name": "semo_102.se1",
+      "sha256": "07d6c50b9e4f3bc42d9e6f005005d65979e8f9bd89e4f66f3e639e820b95d528",
+      "size": 1411422
+    },
+    {
+      "name": "semo_108.se1",
+      "sha256": "4d0d11045b314b60a39927e4aa0ab89bd77dbec5b39d0f342825ef13501c3c7d",
+      "size": 1416577
+    },
+    {
+      "name": "semo_114.se1",
+      "sha256": "1f4e80bbcaf2055afc3d23f20c78714af8b83463d7f022b23b4cc5ecf10ee410",
+      "size": 1420469
+    },
+    {
+      "name": "semo_12.se1",
+      "sha256": "ddf9263fc2bacf47b4d2a275cfa88d1a6c6467a7d4789ab10199f2743611f374",
+      "size": 1305931
+    },
+    {
+      "name": "semo_120.se1",
+      "sha256": "92f6da9d8a68f6927f43ff9ebff684d9f3c72e96c1f649a765fdbb7205daf8c2",
+      "size": 1424162
+    },
+    {
+      "name": "semo_126.se1",
+      "sha256": "011411eb408d1a090bf847ec321d301a72dbda5d579b1459b56aa74fb2c0fec9",
+      "size": 1432625
+    },
+    {
+      "name": "semo_132.se1",
+      "sha256": "b654e84841a68529ed3067f7edafdb34f8506b8744e6cf3190228005ff71f2bb",
+      "size": 1442619
+    },
+    {
+      "name": "semo_138.se1",
+      "sha256": "6bccacd15d9e847db380c3b2369a16e3a11eb51aaa4494ede827864960bb8d1d",
+      "size": 1450003
+    },
+    {
+      "name": "semo_144.se1",
+      "sha256": "399491feebfe73add8939ebdcf5c3ddf0dbec481ba87834219ba8f01099830aa",
+      "size": 1459433
+    },
+    {
+      "name": "semo_150.se1",
+      "sha256": "4cc4ca9af738a5245e73848164e21c5b65e10400b24d4abefe4ca0003af5f5bb",
+      "size": 1474021
+    },
+    {
+      "name": "semo_156.se1",
+      "sha256": "ffffc92cf76253745fa224fdad20a78840ac2fd6b48c571fdb2c14b10aa52cd8",
+      "size": 1495817
+    },
+    {
+      "name": "semo_162.se1",
+      "sha256": "c790cbe414b8bff85703a68091fb31775af2fcb070fcaa718753cb62606146ec",
+      "size": 1505928
+    },
+    {
+      "name": "semo_18.se1",
+      "sha256": "ecfa54dbf5bc0b5a9bc3e04ed28629a821e98625eacae38f4070593bba0e2980",
+      "size": 1304771
+    },
+    {
+      "name": "semo_24.se1",
+      "sha256": "4ebb3728e61182e8b23d4fa71cec42ab73bd4df4e647ecf0f93953a07a06a49f",
+      "size": 1308123
+    },
+    {
+      "name": "semo_30.se1",
+      "sha256": "77ad0118b2194c41e14fe2413b27b63b30458ca8a6c2f34a343d4209a9c602fb",
+      "size": 1312208
+    },
+    {
+      "name": "semo_36.se1",
+      "sha256": "81f91c104fcbc9f7e960bfd54377aa483a132bd5ebcc1edff41a6223e181d0e8",
+      "size": 1326257
+    },
+    {
+      "name": "semo_42.se1",
+      "sha256": "b4a25d2cf49ec5e26436a82c5133c5a4545c77c5adef1aaa867d1dfa7f6acc4a",
+      "size": 1339659
+    },
+    {
+      "name": "semo_48.se1",
+      "sha256": "8d7ba1a5157f3935e88df6f829419d671453c95ab6decc52dcbd1ef65bb77ebe",
+      "size": 1349937
+    },
+    {
+      "name": "semo_54.se1",
+      "sha256": "071dce12410af628a454c3f7c26c1797aceb6f1d46e899b27fe822257543882f",
+      "size": 1358320
+    },
+    {
+      "name": "semo_60.se1",
+      "sha256": "78a2b439506b61f4582c6dd400fb4b5e2e65b3875740714450e384e4dae2d4be",
+      "size": 1366885
+    },
+    {
+      "name": "semo_66.se1",
+      "sha256": "3459d3af20c39b1c0cd021fbbc8a96490f5cc127d3f6d45d1351b20767f800e6",
+      "size": 1375610
+    },
+    {
+      "name": "semo_72.se1",
+      "sha256": "752b15bad85258bb05efb16aec6570a4d5caae072227bd59f98187b2860b19bc",
+      "size": 1383983
+    },
+    {
+      "name": "semo_78.se1",
+      "sha256": "ea571a1f0abb93907b8b709e600bbb60f1f94ff3eeee480df0c366292162f658",
+      "size": 1391143
+    },
+    {
+      "name": "semo_84.se1",
+      "sha256": "80d314b2019470d46c7c3b85fe3e0eed3423cc2f2c23dbc25af1e61773746489",
+      "size": 1397403
+    },
+    {
+      "name": "semo_90.se1",
+      "sha256": "4ebceaa0f0fb08ca116a6c452fdb5880bdfc34407fdc972b7324d17312c71179",
+      "size": 1402879
+    },
+    {
+      "name": "semo_96.se1",
+      "sha256": "2101038708335f0a02bcf3a05c5c4d8ffd61f3ec364735c35e5709994569998c",
+      "size": 1407105
+    },
+    {
+      "name": "seorbel.txt",
+      "sha256": "97b454ff78f4f4716b5cc987a93ca8f33e44ef4b524a165a155a8a4885fd2e18",
+      "size": 6063
+    },
+    {
+      "name": "sepl_00.se1",
+      "sha256": "2617e0cf13a1adc4a3dcfb089bb36a5ce338b5ead8e144534cfb3b896c7d3b52",
+      "size": 483871
+    },
+    {
+      "name": "sepl_06.se1",
+      "sha256": "edc86c920260324e7c64fd1c817bf056982d76cde8271eb4382e04e39a0b3a31",
+      "size": 482953
+    },
+    {
+      "name": "sepl_102.se1",
+      "sha256": "be7a4b1c5867fdc2a220d96ef40e86ae223e98c48da7a4884fb1e073f05a8e69",
+      "size": 566462
+    },
+    {
+      "name": "sepl_108.se1",
+      "sha256": "d1cd00b7faa85f293b841ce552d78292b131c56ed0f9be7ae0239e702b5afce4",
+      "size": 574871
+    },
+    {
+      "name": "sepl_114.se1",
+      "sha256": "7bdfa9032fa70c6ead2863b199e50070fe48fb54b64db9d6d09514a4189024af",
+      "size": 589817
+    },
+    {
+      "name": "sepl_12.se1",
+      "sha256": "75d1b5aa89f5bb1e07aa655e758b69a69eed32e97dd4df5c3b34e227de08ff85",
+      "size": 483757
+    },
+    {
+      "name": "sepl_120.se1",
+      "sha256": "4df667b280e937a995768481b99b34ed035e6051f96a23717cb9693e6ab7a1db",
+      "size": 598274
+    },
+    {
+      "name": "sepl_126.se1",
+      "sha256": "aff56121f4dd4f02fe9c478654d7964b121572ba841e74c51eb5a1fd05164bae",
+      "size": 605675
+    },
+    {
+      "name": "sepl_132.se1",
+      "sha256": "db0590632c5dd094b452d164d517881af9ebdd589c3696c7977bf16cf699a5a3",
+      "size": 619007
+    },
+    {
+      "name": "sepl_138.se1",
+      "sha256": "70de931d2e616cf4e43b01f256a26f6aa10ed395b3e980ed86dff9e0659bffee",
+      "size": 623354
+    },
+    {
+      "name": "sepl_144.se1",
+      "sha256": "65358df69a227c535e428acd3595bc0f8ae910f4d661c0908db8075810a6533d",
+      "size": 628335
+    },
+    {
+      "name": "sepl_150.se1",
+      "sha256": "71943fa0c68196a69ac4625ea4fbf2f2d21b8f2c157a0503aaf83a56331cd3ef",
+      "size": 644186
+    },
+    {
+      "name": "sepl_156.se1",
+      "sha256": "e46d0de31b59e0a8313cea4b93249798f3f26b40ee83a5aa3689ffb344520e1a",
+      "size": 652910
+    },
+    {
+      "name": "sepl_162.se1",
+      "sha256": "e203fd59c8f4008766a4c3be60a42b11e09e35ece20f2b19db88a092998ab12f",
+      "size": 658153
+    },
+    {
+      "name": "sepl_18.se1",
+      "sha256": "0b7e416e3c1be9e6a0dd1d711dae7f7685793a0e7df13f76363a493dc27b6ea1",
+      "size": 484055
+    },
+    {
+      "name": "sepl_24.se1",
+      "sha256": "63e4d1179c27090aff4729fc64daf58a689758de059fa3ee0eaaafaffb630b75",
+      "size": 483402
+    },
+    {
+      "name": "sepl_30.se1",
+      "sha256": "7dcfc025fb11c8b4b4a5c2a0d10c4a1bcefd15f2f904a56fc5f11104eaf34c05",
+      "size": 484373
+    },
+    {
+      "name": "sepl_36.se1",
+      "sha256": "ec4365928f816cfe72cd14b312873d0dc9a9d60ab77ca736f221b13a4fc57b05",
+      "size": 484686
+    },
+    {
+      "name": "sepl_42.se1",
+      "sha256": "3d48bf7a9f19cf768be2d8af4ce8c8acc6bbec8ade9e014f0035e04b352ba9d1",
+      "size": 483628
+    },
+    {
+      "name": "sepl_48.se1",
+      "sha256": "c5f6f9c05e518e50e98b040ecc2f98e86c1128ef1b92a1ca37f9f403c02da18f",
+      "size": 485517
+    },
+    {
+      "name": "sepl_54.se1",
+      "sha256": "313aa4957ade6739bde5084a2a69c8b3d13e1f86ed869b3c2e558ceb1ce29c4c",
+      "size": 488956
+    },
+    {
+      "name": "sepl_60.se1",
+      "sha256": "58e167681af99db9459c5b70a3bc380c93361089262d5af105eb06e28647f12a",
+      "size": 493649
+    },
+    {
+      "name": "sepl_66.se1",
+      "sha256": "cf0f101dc780c176804fde41d2f5ceb5377036e9f235c3e981263cec8847d7bb",
+      "size": 501136
+    },
+    {
+      "name": "sepl_72.se1",
+      "sha256": "e0a2e4d5517e402f7a8ef4a5d941b306ebcadf0c18c5bee4a476708844962357",
+      "size": 508815
+    },
+    {
+      "name": "sepl_78.se1",
+      "sha256": "ce6cd0ffa4870c6bcc284e4963cb7c974caf898ad7dfbbcaed697fae1f00ba29",
+      "size": 516226
+    },
+    {
+      "name": "sepl_84.se1",
+      "sha256": "e5bbe88c29de486d87036c95cc7974e9d592d465adb734eedf471b80493bf5da",
+      "size": 530714
+    },
+    {
+      "name": "sepl_90.se1",
+      "sha256": "72b237ba9b0853f4a30e732ba499a34bc1124e408b41305d367de9bbbed4fef5",
+      "size": 543316
+    },
+    {
+      "name": "sepl_96.se1",
+      "sha256": "9e1400c7f1c77291c482f0fcae7336253107ed6ad378ae54ca5df1d9d8aa115f",
+      "size": 554703
+    }
+  ],
+  "source": {
+    "name": "Swiss Ephemeris (Alois Treindl)",
+    "note": "Downloaded during setup. Do not update silently; re-run build+verify if changed.",
+    "path": "ephe/",
+    "repo": "https://github.com/aloistr/swisseph"
+  }
+}

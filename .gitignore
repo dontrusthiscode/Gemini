@@ -1,0 +1,14 @@
+# System
+.DS_Store
+__pycache__/
+*.pyc
+
+# Ephemeral
+scratches/harmonization_build/
+scratches/active_session.md
+.gemini/
+
+# Environment
+.venv/
+env/
+venv/

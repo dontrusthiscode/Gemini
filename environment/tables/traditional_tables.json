@@ -1,0 +1,143 @@
+{
+  "domicile_ruler_by_sign": {
+    "Aries": "Mars",
+    "Taurus": "Venus",
+    "Gemini": "Mercury",
+    "Cancer": "Moon",
+    "Leo": "Sun",
+    "Virgo": "Mercury",
+    "Libra": "Venus",
+    "Scorpio": "Mars",
+    "Sagittarius": "Jupiter",
+    "Capricorn": "Saturn",
+    "Aquarius": "Saturn",
+    "Pisces": "Jupiter"
+  },
+  "exaltation_ruler_by_sign": {
+    "Aries": "Sun",
+    "Taurus": "Moon",
+    "Cancer": "Jupiter",
+    "Virgo": "Mercury",
+    "Libra": "Saturn",
+    "Capricorn": "Mars",
+    "Pisces": "Venus"
+  },
+  "triplicity_dorothean_by_element": {
+    "fire": {
+      "day": "Sun",
+      "night": "Jupiter",
+      "participating": "Saturn"
+    },
+    "earth": {
+      "day": "Venus",
+      "night": "Moon",
+      "participating": "Mars"
+    },
+    "air": {
+      "day": "Saturn",
+      "night": "Mercury",
+      "participating": "Jupiter"
+    },
+    "water": {
+      "day": "Venus",
+      "night": "Mars",
+      "participating": "Moon"
+    }
+  },
+  "terms_egyptian_by_sign": {
+    "Aries": [
+      { "end_degree": 6, "ruler": "Jupiter" },
+      { "end_degree": 14, "ruler": "Venus" },
+      { "end_degree": 21, "ruler": "Mercury" },
+      { "end_degree": 26, "ruler": "Mars" },
+      { "end_degree": 30, "ruler": "Saturn" }
+    ],
+    "Taurus": [
+      { "end_degree": 8, "ruler": "Venus" },
+      { "end_degree": 14, "ruler": "Mercury" },
+      { "end_degree": 22, "ruler": "Jupiter" },
+      { "end_degree": 27, "ruler": "Saturn" },
+      { "end_degree": 30, "ruler": "Mars" }
+    ],
+    "Gemini": [
+      { "end_degree": 7, "ruler": "Mercury" },
+      { "end_degree": 14, "ruler": "Jupiter" },
+      { "end_degree": 21, "ruler": "Venus" },
+      { "end_degree": 25, "ruler": "Mars" },
+      { "end_degree": 30, "ruler": "Saturn" }
+    ],
+    "Cancer": [
+      { "end_degree": 7, "ruler": "Mars" },
+      { "end_degree": 13, "ruler": "Venus" },
+      { "end_degree": 19, "ruler": "Mercury" },
+      { "end_degree": 26, "ruler": "Jupiter" },
+      { "end_degree": 30, "ruler": "Saturn" }
+    ],
+    "Leo": [
+      { "end_degree": 6, "ruler": "Saturn" },
+      { "end_degree": 13, "ruler": "Mercury" },
+      { "end_degree": 19, "ruler": "Venus" },
+      { "end_degree": 25, "ruler": "Jupiter" },
+      { "end_degree": 30, "ruler": "Mars" }
+    ],
+    "Virgo": [
+      { "end_degree": 7, "ruler": "Mercury" },
+      { "end_degree": 13, "ruler": "Venus" },
+      { "end_degree": 18, "ruler": "Jupiter" },
+      { "end_degree": 24, "ruler": "Mars" },
+      { "end_degree": 30, "ruler": "Saturn" }
+    ],
+    "Libra": [
+      { "end_degree": 6, "ruler": "Saturn" },
+      { "end_degree": 14, "ruler": "Mercury" },
+      { "end_degree": 21, "ruler": "Jupiter" },
+      { "end_degree": 28, "ruler": "Venus" },
+      { "end_degree": 30, "ruler": "Mars" }
+    ],
+    "Scorpio": [
+      { "end_degree": 7, "ruler": "Mars" },
+      { "end_degree": 13, "ruler": "Venus" },
+      { "end_degree": 19, "ruler": "Mercury" },
+      { "end_degree": 24, "ruler": "Jupiter" },
+      { "end_degree": 30, "ruler": "Saturn" }
+    ],
+    "Sagittarius": [
+      { "end_degree": 12, "ruler": "Jupiter" },
+      { "end_degree": 17, "ruler": "Venus" },
+      { "end_degree": 21, "ruler": "Mercury" },
+      { "end_degree": 26, "ruler": "Saturn" },
+      { "end_degree": 30, "ruler": "Mars" }
+    ],
+    "Capricorn": [
+      { "end_degree": 7, "ruler": "Mercury" },
+      { "end_degree": 14, "ruler": "Jupiter" },
+      { "end_degree": 22, "ruler": "Venus" },
+      { "end_degree": 26, "ruler": "Saturn" },
+      { "end_degree": 30, "ruler": "Mars" }
+    ],
+    "Aquarius": [
+      { "end_degree": 7, "ruler": "Mercury" },
+      { "end_degree": 13, "ruler": "Venus" },
+      { "end_degree": 20, "ruler": "Jupiter" },
+      { "end_degree": 25, "ruler": "Mars" },
+      { "end_degree": 30, "ruler": "Saturn" }
+    ],
+    "Pisces": [
+      { "end_degree": 12, "ruler": "Venus" },
+      { "end_degree": 19, "ruler": "Jupiter" },
+      { "end_degree": 24, "ruler": "Mercury" },
+      { "end_degree": 27, "ruler": "Mars" },
+      { "end_degree": 30, "ruler": "Saturn" }
+    ]
+  },
+  "faces_chaldean_sequence_starting_aries_0": [
+    "Mars",
+    "Sun",
+    "Venus",
+    "Mercury",
+    "Moon",
+    "Saturn",
+    "Jupiter"
+  ]
+}
+

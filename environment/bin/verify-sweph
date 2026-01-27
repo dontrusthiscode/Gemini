@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+PY="$ROOT/python/cpython-3.12.12-macos-aarch64-none/bin/python3"
+
+if [[ ! -x "$PY" ]]; then
+  if command -v python3 >/dev/null 2>&1; then
+    PY="$(command -v python3)"
+  else
+    echo "Missing Python runtime: $PY (and python3 not found on PATH)" >&2
+    exit 1
+  fi
+fi
+
+exec "$PY" "$ROOT/scripts/sweph_manifest.py" verify

@@ -1,0 +1,17 @@
+[project]
+name = "cardano-engine"
+version = "0.1.0"
+description = "Compute-only forensic astrology engine"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyswisseph==2.10.3.2",
+    "tzdata==2025.3",
+]
+
+[project.scripts]
+cardano-engine = "cardano_engine:main"
+
+[build-system]
+requires = ["uv_build>=0.9.4,<0.10.0"]
+build-backend = "uv_build"

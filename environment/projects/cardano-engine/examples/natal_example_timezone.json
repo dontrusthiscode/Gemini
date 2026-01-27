@@ -1,0 +1,15 @@
+{
+  "chart_type": "natal",
+  "datetime_local": "1990-01-01T12:00:00",
+  "timezone": "America/New_York",
+  "location": {
+    "lat": 40.7128,
+    "lon": -74.006,
+    "alt_m": 0.0
+  },
+  "context": {
+    "note": "If birth time is not rectified, interpret angle-based overlays with caution."
+  },
+  "chart_id": "natal_example_001"
+}
+

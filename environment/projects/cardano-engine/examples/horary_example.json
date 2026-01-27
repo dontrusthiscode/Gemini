@@ -1,0 +1,13 @@
+{
+  "chart_type": "horary",
+  "datetime": "2026-01-18T16:06:00-08:00",
+  "location": {
+    "lat": 34.0522,
+    "lon": -118.2437,
+    "alt_m": 0.0
+  },
+  "question": "Will X happen?",
+  "context": "Short narrative context can be placed here. Keep it factual.",
+  "chart_id": "horary_example_001"
+}
+

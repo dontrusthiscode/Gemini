@@ -1,0 +1,28 @@
+{
+  "subject": "Theodore (The Anomaly)",
+  "datetime": "2007-04-24T04:15:00+03:00",
+  "location": {
+    "lat": 46.9667,
+    "lon": 28.8667,
+    "desc": "Chisinau, Moldova"
+  },
+  "zodiac": "Tropical",
+  "house_system": "Placidus",
+  "positions": {
+    "Sun": "Taurus 3.50",
+    "Moon": "Leo 0.87",
+    "Mercury": "Aries 23.47",
+    "Venus": "Gemini 13.87",
+    "Mars": "Pisces 13.55",
+    "Jupiter": "Sagittarius 19.27",
+    "Saturn": "Leo 18.17",
+    "Uranus": "Pisces 17.28",
+    "Neptune": "Aquarius 21.77",
+    "Pluto": "Sagittarius 28.82",
+    "NorthNode": "Pisces 13.67",
+    "Ascendant": "Pisces 8.68",
+    "Midheaven": "Sagittarius 20.17",
+    "Vertex": "Virgo 21.70",
+    "Part_of_Fortune": "Sagittarius 11.31"
+  }
+}

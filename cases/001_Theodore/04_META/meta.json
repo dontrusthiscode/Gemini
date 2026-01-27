@@ -1,0 +1,12 @@
+{
+  "case_id": "theodore_case_001",
+  "auditor": "Context Calculator",
+  "version": "1.0.0",
+  "tools_used": ["Python3", "Swiss Ephemeris v2.10", "Dodecatemoria Algorithm", "Arabic Parts Database"],
+  "checksums": {
+    "natal.json": "verified",
+    "draconic.json": "verified",
+    "encyclopedia.md": "verified"
+  },
+  "conventions": "Forensic / Pre-1900 / Structural Logic"
+}
