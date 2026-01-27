@@ -40,3 +40,14 @@
 - **Technical Lesson:**  calculates Day-for-Year progressions correctly only if manually coded (Solar Arc degree != 1 year exactly). Use  logic.
 - **Technical Lesson:**  is the only source of truth. If a file is missing, do not guess. Run the Harmonizer.
 - **Environment Lock:** Star Data is permanently installed in `environment/data/sweph`. Do NOT attempt to re-download.
+
+## 7. THE ANTI-BINARY PROTOCOL (Evolution 2026-01-27)
+- **The Failure Mode:** Swinging from "All In" to "Zero Influence." (e.g. "It's either a Warlord or a Little Kid.")
+- **The Reality:** Reality is **Compound.**
+- **The Rule:** You are FORBIDDEN from using the word "Zero" or "None" regarding an Angular Planet unless the Orb is > 10°.
+- **The Method:** **Layering.**
+    - If Signal A (Saturn) says "Hard" and Signal B (Pisces) says "Soft":
+    - **DO NOT** Cancel them out.
+    - **DO NOT** Pick one.
+    - **DO:** Layer them. "It is a Hard Shell (Saturn) containing Soft Water (Pisces)."
+- **Mandate:** Synthesize contradictions into **Physics**, not Conflicts.
