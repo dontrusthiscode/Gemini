@@ -78,10 +78,23 @@
 ## STEP 6: THE COMMIT & WIPE
 - **Pre-Commit Check:** "Did I generate this in the Session folder first?"
 - **Finalize:** If the Verdict is solid, write it to `cases/001_Theodore/02_CROSS_REFERENCE/encyclopedia.md`.
-- **Archive Criteria (Pre-Archival Protocol):** Sessions stay in `scratches/sessions/` until formally closed. A session is ONLY archived when:
+
+### NATAL SESSION ARCHIVAL
+- **Archive Criteria:** Sessions stay in `scratches/sessions/` until formally closed. A session is ONLY archived when:
     1.  **Logic Audit:** A `FINAL_AUDIT.md` is generated and verified.
     2.  **Materialization:** All verified charts/findings have been moved to the `cases/` folder.
     3.  **Evolution:** Any lessons learned are recorded in `core/REALIZATIONS.md`.
+
+### HORARY SESSION → CASE ARCHIVAL
+- **Destination:** `cases/horary/[NNN]_[SUBJECT]_[TOPIC]/`
+- **Procedure:**
+    1.  **Create Case Folder:** `mkdir -p cases/horary/[NNN]_[NAME]/00_CHART_DATA`
+    2.  **Move All Files:** `mv scratches/sessions/[NAME]/*.md cases/horary/[NNN]_[NAME]/00_CHART_DATA/`
+    3.  **Create GEMINI.md:** Document question, date, location, verdict, key findings.
+    4.  **Remove Session:** `rmdir scratches/sessions/[NAME]`
+- **Key Difference:** Horary cases are FROZEN at moment of question. Natal cases update with transits.
+- **Reference:** See `cases/horary/README.md` for full documentation.
+
 - **Wipe:** Only AFTER archival, reset `scratches/active_session.md` to "None".
 
 ## STEP 7: THE TERMINATION (Prospero)
