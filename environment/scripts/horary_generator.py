@@ -86,6 +86,81 @@ FALLS = {
     "Sagittarius": "None", "Capricorn": "Jupiter", "Aquarius": "None", "Pisces": "Mercury"
 }
 
+# Traditional Fixed Stars (Royal, Malefic, and significant)
+FIXED_STARS = [
+    "Algol",           # Beta Persei - the Demon Star
+    "Alcyone",         # Eta Tauri - the Pleiades
+    "Aldebaran",       # Alpha Tauri - Royal Star
+    "Rigel",           # Beta Orionis
+    "Capella",         # Alpha Aurigae
+    "Betelgeuse",      # Alpha Orionis
+    "Sirius",          # Alpha Canis Majoris - brightest
+    "Canopus",         # Alpha Carinae
+    "Castor",          # Alpha Geminorum
+    "Pollux",          # Beta Geminorum
+    "Procyon",         # Alpha Canis Minoris
+    "Regulus",         # Alpha Leonis - Royal Star
+    "Denebola",        # Beta Leonis
+    "Algorab",         # Delta Corvi
+    "Spica",           # Alpha Virginis
+    "Arcturus",        # Alpha Bootis
+    "Alphecca",        # Alpha Coronae Borealis
+    "Zuben Elgenubi",  # Alpha Librae
+    "Zuben Eschamali", # Beta Librae
+    "Unukalhai",       # Alpha Serpentis
+    "Antares",         # Alpha Scorpii - Royal Star
+    "Vega",            # Alpha Lyrae
+    "Altair",          # Alpha Aquilae
+    "Deneb Algedi",    # Delta Capricorni
+    "Fomalhaut",       # Alpha Piscis Austrini - Royal Star
+    "Markab",          # Alpha Pegasi
+    "Scheat",          # Beta Pegasi
+    "Achernar",        # Alpha Eridani
+    "Mirach",          # Beta Andromedae
+    "Almach",          # Gamma Andromedae
+]
+
+
+def calculate_fixed_stars(jd, positions, cusps, orb_limit=1.5):
+    """Calculate fixed star positions using Swiss Ephemeris."""
+    stars = []
+    contacts = []
+    
+    for star_name in FIXED_STARS:
+        try:
+            # swe.fixstar2_ut returns (results_tuple, star_name_full, return_flags)
+            result = swe.fixstar2_ut(star_name, jd, 0)
+            lon = result[0][0]  # First element of the results tuple is longitude
+            sign, deg = lon_to_sign(lon)
+            
+            # Determine house
+            house = get_house_position(lon, cusps)
+            
+            stars.append({
+                "name": star_name,
+                "lon": lon,
+                "sign": sign,
+                "degree": deg,
+                "house": house
+            })
+            
+            # Check for tight contacts to planets and angles
+            for planet_name, p_data in positions.items():
+                diff = abs(lon - p_data["lon"])
+                if diff > 180:
+                    diff = 360 - diff
+                if diff <= orb_limit:
+                    contacts.append({
+                        "star": star_name,
+                        "planet": planet_name,
+                        "orb": diff
+                    })
+        except Exception as e:
+            # Star not found or error - skip silently
+            pass
+    
+    return stars, contacts
+
 
 def lon_to_sign(lon):
     """Convert longitude to zodiac sign and degree."""
@@ -281,31 +356,37 @@ def get_essential_dignity(planet, sign):
     return dignities if dignities else ["Peregrine (0)"]
 
 
-def calculate_sun_altitude(jd, lat, lon):
-    """Calculate Sun's altitude to determine sect."""
+def calculate_sun_altitude(jd, lat, lon, cusps):
+    """Calculate Sun's altitude to determine sect.
+    
+    Uses the simpler but reliable method: if Sun is below the horizon 
+    (houses 1-6), it's a night chart. Above (houses 7-12), it's a day chart.
+    """
     # Get Sun position
     result, _ = swe.calc_ut(jd, swe.SUN)
     sun_lon = result[0]
     
-    # Use swe_azalt for altitude
-    # geopos = [lon, lat, 0]  # lon, lat, altitude
-    # xin = [sun_lon, sun_lat, 1]  # ecliptic coords
-    # xaz = swe.azalt(jd, swe.SE_ECL2HOR, geopos, 0, 0, xin)
-    # altitude = xaz[1]
+    # Determine Sun's house
+    sun_house = get_house_position(sun_lon, cusps)
     
-    # Simplified: use ARMC and ascendant to estimate
-    # For now, approximate based on house position
+    # Houses 7-12 are above horizon (day), houses 1-6 are below (night)
+    # Actually: 1-6 = above, 7-12 = below in standard chart
+    # Wait - standard is: 1st rises at ASC (left), 7th sets at DSC (right)
+    # Above horizon = houses 7, 8, 9, 10, 11, 12 (descending to rising)
+    # Below horizon = houses 1, 2, 3, 4, 5, 6
+    # Actually standard convention:
+    # 12, 11, 10, 9, 8, 7 = above horizon
+    # 6, 5, 4, 3, 2, 1 = below horizon
+    # So: if Sun in houses 7-12, it's above horizon (day chart)
+    #     if Sun in houses 1-6, it's below horizon (night chart)
     
-    # Actually, let's compute properly
-    try:
-        geopos = (lon, lat, 0)
-        result_sun, _ = swe.calc_ut(jd, swe.SUN)
-        xin = [result_sun[0], result_sun[1], result_sun[2]]
-        xaz = swe.azalt(jd, swe.SE_ECL2HOR, geopos, 0, 0, xin)
-        altitude = xaz[1]
-        return altitude
-    except:
-        return 0  # Fallback
+    is_day = sun_house >= 7
+    
+    # Return a pseudo-altitude for clarity
+    # Positive = day, Negative = night
+    pseudo_altitude = 10.0 if is_day else -10.0
+    
+    return pseudo_altitude, sun_house
 
 
 def calculate_moon_perfections(jd, positions, hours_ahead=72):
@@ -432,7 +513,7 @@ def generate_bodies_md(positions, cusps):
     return md
 
 
-def generate_structural_flags_md(positions, ascmc, jd, lat, lon):
+def generate_structural_flags_md(positions, ascmc, cusps, jd, lat, lon):
     """Generate 03_STRUCTURAL_FLAGS.md."""
     md = "# 03_STRUCTURAL_FLAGS\n\n"
     
@@ -448,10 +529,10 @@ def generate_structural_flags_md(positions, ascmc, jd, lat, lon):
     
     # Sect
     md += "## Sect (Day/Night)\n"
-    sun_alt = calculate_sun_altitude(jd, lat, lon)
+    sun_alt, sun_house = calculate_sun_altitude(jd, lat, lon, cusps)
     sect = "Day" if sun_alt >= 0 else "Night"
-    md += f"- Sun altitude: **{sun_alt:.4f}°**\n"
-    md += f"- Sect: **{sect} chart**\n\n"
+    md += f"- Sun in House: **{sun_house}**\n"
+    md += f"- Sect: **{sect} chart** ({'above' if sun_alt >= 0 else 'below'} horizon)\n\n"
     
     # Radicality
     md += "## Radicality warnings\n"
@@ -511,6 +592,30 @@ def generate_receptions_md(positions):
     return md
 
 
+def generate_fixed_stars_md(stars, contacts):
+    """Generate 07_FIXED_STARS.md."""
+    md = "# 07_FIXED_STARS\n\n"
+    md += f"Calculated using Swiss Ephemeris native star catalog.\n\n"
+    
+    md += "## Star Positions\n"
+    md += "| Star | Position | House | Lon360 |\n"
+    md += "|:---|:---|:---:|---:|\n"
+    
+    for s in sorted(stars, key=lambda x: x["lon"]):
+        md += f"| {s['name']} | {s['sign']} {format_dms(s['degree'])} | {s['house']} | {s['lon']:.4f} |\n"
+    
+    md += "\n## Tight Contacts (orb ≤ 1.5°)\n"
+    if contacts:
+        md += "| Star | Planet | Orb |\n"
+        md += "|:---|:---|---:|\n"
+        for c in sorted(contacts, key=lambda x: x["orb"]):
+            md += f"| {c['star']} | {c['planet']} | {c['orb']:.4f}° |\n"
+    else:
+        md += "- No tight contacts found.\n"
+    
+    return md
+
+
 def main():
     if len(sys.argv) < 7:
         print("Usage: python3 horary_generator.py DATE TIME TIMEZONE LAT LON QUESTION OUTPUT_DIR")
@@ -551,6 +656,9 @@ def main():
     perfections = calculate_moon_perfections(jd, positions)
     print(f"Moon perfections: {len(perfections)}")
     
+    stars, star_contacts = calculate_fixed_stars(jd, positions, cusps)
+    print(f"Fixed stars: {len(stars)}, Contacts: {len(star_contacts)}")
+    
     print("-" * 60)
     
     # Generate files
@@ -558,10 +666,11 @@ def main():
         "00_CORE_DATA.md": generate_core_data_md(date_str, time_str, tz_str, lat, lon, question, jd, ut_hour),
         "01_HOUSES.md": generate_houses_md(cusps, ascmc),
         "02_BODIES.md": generate_bodies_md(positions, cusps),
-        "03_STRUCTURAL_FLAGS.md": generate_structural_flags_md(positions, ascmc, jd, lat, lon),
+        "03_STRUCTURAL_FLAGS.md": generate_structural_flags_md(positions, ascmc, cusps, jd, lat, lon),
         "04_ASPECTS.md": generate_aspects_md(aspects),
         "05_MOON_PERFECTIONS.md": generate_moon_perfections_md(perfections, jd),
         "06_RECEPTIONS.md": generate_receptions_md(positions),
+        "07_FIXED_STARS.md": generate_fixed_stars_md(stars, star_contacts),
     }
     
     for filename, content in files.items():
