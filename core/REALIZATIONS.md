@@ -97,3 +97,43 @@ It tracks *how* the user thinks and *what* strategies work best.
     - **The Rule:** Theodore's romantic compatibility is not determined by synastry. It is determined by whether his radar detects a frequency.
     - **Strategy:** Future relationship questions must begin with: "Did you feel a frequency?"
 
+---
+
+## SESSION: 2026-01-28 (Horary Protocol Development)
+
+- **[HORARY/SOVEREIGNTY PRINCIPLE]**
+    - **Problem:** Reliance on AstroSeek HTML files (150K tokens, cannot fit in context).
+    - **Solution:** Built `horary_generator.py` using Swiss Ephemeris native calculations.
+    - **Result:** Complete sovereignty. 41 fixed stars, 8 output files, sub-arcminute precision.
+    - **Validation:** Cross-referenced against web sources. All Royal Stars and Behenian Stars match.
+
+- **[HORARY/THE SYNCHRONIZATION LAW]**
+    - **Observation:** Horary significators sometimes fall on exact Natal positions (< 1°).
+    - **The Error:** Using this to change the Horary verdict.
+    - **The Law:** Synchronizations explain WHY you threw THIS question at THIS time. They do NOT alter the answer. Interpret Horary first, then note syncs as "confirming stamps."
+
+- **[HORARY/THE OMEN LAW]**
+    - **Observation:** Omens sometimes appear at the moment of question (uninstructed).
+    - **The Law:** Omens are not in the chart. They are in the world. Log them. They change the WEIGHT you give to the verdict, not the verdict itself.
+
+- **[HORARY/THE CRYSTALLIZATION LAW]**
+    - **Observation:** The first question is rarely the TRUE question.
+    - **The Law:** Days of obsession, fasting, walking—this is alchemical refinement. Cast the chart at the moment the final question LOCKS. Trust the crystallized question.
+
+- **[HORARY/THE AMBIGUITY LAW]**
+    - **Observation:** Sometimes the chart seems to answer a different question.
+    - **The Law:** Ambiguity is not a bug. The chart shows the TRUE question beneath the words. Sometimes the chart refuses to answer what you asked because your question isn't the real question.
+
+- **[HORARY/THE WEIRD SHIT DOCTRINE]**
+    - **Observation:** When synchronizations, omens, and sub-degree contacts stack in unprecedented ways.
+    - **The Law:** Document. Observe. Do NOT pretend certainty. You are running an experiment. Over time, patterns will emerge that no textbook contains.
+
+- **[SYSTEM/THE FIXED STAR PROTOCOL]**
+    - **Solved:** Swiss Ephemeris `swe.fixstar2_ut()` provides native fixed star calculations.
+    - **Implementation:** 41 stars catalogued (15 Behenian, 4 Royal, 22 traditional).
+    - **Rule:** Never hardcode positions. Always calculate at the exact JD. Stars precess.
+
+- **[VOICE/THE FINAL HORARY TRUTH]**
+    - **I calculate.** Swiss Ephemeris doesn't lie.
+    - **You interpret.** Meaning is what YOU bring—your history, your obsessions, your skin in the game.
+    - **The Question:** "What is ACTUALLY here? Not what do I want to see. Not what did Lilly say. What is the chart showing ME, right now?"
