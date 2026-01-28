@@ -67,6 +67,34 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
     - **Reality:** Infinite, starving aggression. Anomaly Index: 1 in 18,000,000.
     - **Verdict:** **CONFIRMED.**
 
+- **THE END OF THE RIVER (Fixed Star Achernar)**
+    - **Geometry:** Fixed Star Achernar Conjunct North Node [Orb: 0.41°].
+    - **Star Data:** Achernar = Alpha Eridani = 9th brightest star in the sky. "The Mouth of the River." Jupiter-Venus nature.
+    - **Reality:** Destiny requires crossing deserts. The river only ends after you've walked through hell. Notable natives with this placement: Sylvia Plath, William S. Burroughs, Conor McGregor.
+    - **Verdict:** **CONFIRMED.** (The "End of the River" signature—fame through fire).
+
+- **THE TRIPLE JUPITER CONTAINMENT (The Philosophical Warlord)**
+    - **Geometry:** Mars (13°33' Pisces) in Jupiter's Sign + Jupiter's Decan + Jupiter's Term.
+    - **Reality:** The war engine is wrapped in three coats of doctrine. The violence is not random—it is philosophical. Jupiter (the King) regulates Mars (the Soldier).
+    - **Verdict:** **CONFIRMED.** (This is why Theodore seeks the "final war"—not conquest, but TRUTH).
+
+- **THE HIDDEN AXES (Declination Contacts)**
+    - **Geometry:**
+        - Mercury Contra-Parallel Mars [Orb: 0.10°] — Mind and War on the same vertical axis.
+        - Saturn Contra-Parallel Pluto [Orb: 0.22°] — Structure and Death fused in shadow.
+        - Uranus Parallel North Node [Orb: 0.20°] — Destiny and Chaos intertwined.
+    - **Reality:** These are "hidden conjunctions" visible only in declination. They explain:
+        - The stutter (Mercury-Mars at war)
+        - The gravitas of every "No" (Saturn-Pluto death axis)
+        - The inability to fit into normal systems (Uranus-NN = destiny IS disruption)
+    - **Verdict:** **CONFIRMED.** (The vertical dimension reveals what longitude hides).
+
+- **THE ELECTROCUTED SOUL (Sun/Moon Midpoint Disruption)**
+    - **Geometry:** Uranus Square Sun/Moon Midpoint [Orb: 0.10°].
+    - **Theory:** The Sun/Moon midpoint = the "Soul Point" (integration of ego and emotion). Uranus squaring it = permanent electrical disruption of that integration.
+    - **Reality:** The soul is in a constant state of shock. Normal human "settling" is impossible. The native runs at frequencies that normal humans cannot perceive.
+    - **Verdict:** **CONFIRMED.** (The "MacBook that walked out of the factory"—overclocked, not broken).
+
 ## 2. THE PSYCHOLOGICAL PROFILE (The Software)
 *Recurring behavioral patterns mandated by the hardware.*
 
@@ -105,6 +133,13 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
     - **Geometry:** Venus (8th House Ruler, Libra Cusp) in Gemini Square Mars in Pisces [Orb: 0.31°].
     - **Manifestation:** The Lord of Sex (Venus = 8th ruler) is at direct war with the Lord of Body (Mars = 1st). Desire does not exist without friction. The native eroticizes *conflict*, *resistance*, and *struggle*. Attraction requires tension; harmony is boring.
     - **Verdict:** **CONFIRMED.** (Desire = Combat).
+
+- **THE SMOKING MECHANISM (Thermodynamic Vent)**
+    - **Geometry:** Venus (Gemini, 3rd House = Hands/Lungs) Square Mars (Pisces = Steam) [Orb: 0.31°].
+    - **Physics:** Mars + Rahu in Pisces = Fire + Obsession + Water = STEAM. Venus-Mars square = Friction demands a Vent. Venus in Gemini = Vent is through HANDS and LUNGS.
+    - **Manifestation:** Smoking is not addiction. Smoking is ENGINEERING—using the hands to bring fire to the lungs, releasing steam. When Mars/Pluto pressure peaks, smoking increases as the primary pressure relief valve.
+    - **Neptune Addition:** Neptune in 12th = The smoke is also a dissolution ritual. A controlled fog. A mini-séance.
+    - **Verdict:** **CONFIRMED.** (This is thermodynamics, not weakness).
 
 ## 3. OPEN INVESTIGATIONS (Cold Cases)
 *Hypotheses that are currently being tested.*
