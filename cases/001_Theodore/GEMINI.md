@@ -42,7 +42,7 @@ When this file is triggered by the Root `GEMINI.md`:
 ## 4. HOW TO CONTINUE
 When the Operator asks a question:
 1. **Sync with Data:** Check if the topic has a geometric anchor in `02_CROSS_REFERENCE/encyclopedia.md`.
-2. **Run Python:** Use the `run_shell_command` to verify any new hypotheses with 0.01° precision.
+2. **Run Python:** Use `run_command` to verify any new hypotheses with 0.01° precision.
 3. **Deliver the Mirror:** Speak directly to Theodore. Use swearing and raw language if it fits the "Brutal Truth" mandate. 
 4. **Update the Encyclopedia:** If you find a new novel ingredient, add it to the permanent record immediately.
 

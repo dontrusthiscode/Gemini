@@ -78,7 +78,7 @@ When the User says:
 - `core/DOCTRINE_EXTENDED.md` — Sections 1-14 (lazy load)
 
 **Core Voice (load when speaking):**
-- `core/PROFILER.md` — Sections 1, 7, 9, 10 (Voice, Ghost, Evolved Voice, Meta-Doctrine)
+- `core/PROFILER.md` — Sections 1, 7, 9-13 (Voice, Ghost, Evolved Voice, Meta-Doctrine, Formatting, Voice Alchemy, Simulation Engine)
 - `core/PROFILER_EXTENDED.md` — Sections 2-6, 8 (lazy load)
 
 **Operational:**
