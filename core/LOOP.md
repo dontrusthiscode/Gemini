@@ -109,3 +109,62 @@
     4.  **Idle Check:** If a task is unfinished, update `core/REALIZATIONS.md` with: "POSTPONED: [Reason]".
     5.  **Finality:** Clear the current context.
 
+---
+
+## STEP 8: NEW CASE ONBOARDING (Scalability Protocol)
+
+*When adding a new Natal subject or expanding the system.*
+
+### NEW NATAL SUBJECT
+
+1. **Get the Sequence Number:**
+   ```bash
+   ls cases/ | grep -E '^[0-9]{3}_' | sort | tail -1
+   ```
+   Increment by 1 (001 → 002 → 003...)
+
+2. **Create Case Directory:**
+   ```bash
+   cp -r cases/template cases/[NNN]_[NAME]
+   ```
+
+3. **Configure GEMINI.md:**
+   - Edit `cases/[NNN]_[NAME]/GEMINI.md`
+   - Fill in Core Constants
+   - Update naming throughout
+
+4. **Generate Chart Data:**
+   ```bash
+   python3 environment/scripts/calculate_natal.py [BIRTH_DATA] > cases/[NNN]_[NAME]/00_CORE_DATA/01_NATAL_CHART.md
+   ```
+
+5. **Update Root GEMINI.md (optional):**
+   - Add case to directory map if frequently accessed
+
+### NEW HORARY QUESTION
+
+See `cases/horary/README.md` for the 5 workflow procedures.
+
+### CROSS-CASE REFERENCES
+
+When one case references another:
+- **Format:** `See: cases/[NNN]_[NAME]/...`
+- **In GEMINI.md:** Add "Related Cases" section
+- **In Horary:** Cross-reference querent's Natal case
+
+### SCALABILITY GUARANTEES
+
+| Metric | Limit | Notes |
+|:---|:---|:---|
+| Natal Cases | 999 | 3-digit naming (expandable to 4) |
+| Horary Cases | 999 | 3-digit naming per case |
+| Sessions | Unlimited | Cleaned on archival |
+| Scripts | Unlimited | Add to `environment/scripts/` |
+| Archived Sessions | Unlimited | Managed by `harmonize.py` |
+
+**The System Scales Because:**
+- Each case is self-contained (GEMINI.md + data folders)
+- Sessions are temporary (archived after completion)
+- Cross-references use relative paths
+- Scripts are stateless (input → output)
+- harmonize.py handles maintenance automatically

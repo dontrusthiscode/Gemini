@@ -93,6 +93,10 @@ When the User says:
 - `cases/001_Theodore/02_CROSS_REFERENCE/encyclopedia.md` — Verified axioms
 - `cases/001_Theodore/03_CONTEXT_LOG/STORY_ARCHIVE.md` — Encounters
 
+**Natal Case Template (for new subjects):**
+- `cases/template/GEMINI.md` — Copy and modify for new Natal subject
+- **Naming:** `cases/[NNN]_[NAME]/` (e.g., `002_Alice`, `003_Marcus`)
+
 **Horary Cases:**
 - `cases/horary/README.md` — Workflow documentation (5 procedures)
 - `cases/horary/[NNN]_[NAME]/GEMINI.md` — Case metadata per question
