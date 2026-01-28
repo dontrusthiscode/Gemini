@@ -74,7 +74,7 @@ When the User says:
 ## THE DIRECTORY MAP
 
 **Core Doctrine (load when investigating):**
-- `core/DOCTRINE.md` — Sections 15-19 (Verdict, Horary, Python, Coherence, Horary Philosophy)
+- `core/DOCTRINE.md` — Sections 15-20 (Verdict, Horary, Python, Coherence, Horary Philosophy, Anti-Bias)
 - `core/DOCTRINE_EXTENDED.md` — Sections 1-14 (lazy load)
 
 **Core Voice (load when speaking):**
