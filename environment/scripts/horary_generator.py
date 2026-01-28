@@ -86,38 +86,61 @@ FALLS = {
     "Sagittarius": "None", "Capricorn": "Jupiter", "Aquarius": "None", "Pisces": "Mercury"
 }
 
-# Traditional Fixed Stars (Royal, Malefic, and significant)
+# Traditional Fixed Stars
+# - 4 Royal Stars (Watchers): Aldebaran, Regulus, Antares, Fomalhaut
+# - 15 Behenian Stars (medieval talismanic): Algol, Alcyone, Aldebaran, Capella, 
+#   Sirius, Procyon, Regulus, Alkaid, Algorab, Spica, Arcturus, Alphecca, 
+#   Antares, Vega, Deneb Algedi
+# - Additional important stars: Ptolemaic tradition + modern usage
 FIXED_STARS = [
-    "Algol",           # Beta Persei - the Demon Star
-    "Alcyone",         # Eta Tauri - the Pleiades
-    "Aldebaran",       # Alpha Tauri - Royal Star
-    "Rigel",           # Beta Orionis
-    "Capella",         # Alpha Aurigae
-    "Betelgeuse",      # Alpha Orionis
-    "Sirius",          # Alpha Canis Majoris - brightest
-    "Canopus",         # Alpha Carinae
-    "Castor",          # Alpha Geminorum
-    "Pollux",          # Beta Geminorum
-    "Procyon",         # Alpha Canis Minoris
-    "Regulus",         # Alpha Leonis - Royal Star
-    "Denebola",        # Beta Leonis
-    "Algorab",         # Delta Corvi
-    "Spica",           # Alpha Virginis
-    "Arcturus",        # Alpha Bootis
-    "Alphecca",        # Alpha Coronae Borealis
-    "Zuben Elgenubi",  # Alpha Librae
-    "Zuben Eschamali", # Beta Librae
-    "Unukalhai",       # Alpha Serpentis
-    "Antares",         # Alpha Scorpii - Royal Star
-    "Vega",            # Alpha Lyrae
-    "Altair",          # Alpha Aquilae
-    "Deneb Algedi",    # Delta Capricorni
-    "Fomalhaut",       # Alpha Piscis Austrini - Royal Star
-    "Markab",          # Alpha Pegasi
-    "Scheat",          # Beta Pegasi
-    "Achernar",        # Alpha Eridani
-    "Mirach",          # Beta Andromedae
-    "Almach",          # Gamma Andromedae
+    # === BEHENIAN STARS (15) ===
+    "Algol",           # Beta Persei - Demon Star, Saturn/Jupiter
+    "Alcyone",         # Eta Tauri - Pleiades, Moon/Mars
+    "Aldebaran",       # Alpha Tauri - ROYAL STAR, Mars/Venus
+    "Capella",         # Alpha Aurigae - Jupiter/Saturn
+    "Sirius",          # Alpha Canis Majoris - brightest star, Mars/Jupiter
+    "Procyon",         # Alpha Canis Minoris - Mercury/Mars
+    "Regulus",         # Alpha Leonis - ROYAL STAR, Jupiter/Mars
+    "Alkaid",          # Eta Ursae Majoris - Venus/Moon (Behenian)
+    "Algorab",         # Delta Corvi - Saturn/Mars
+    "Spica",           # Alpha Virginis - Venus/Mercury
+    "Arcturus",        # Alpha Bootis - Mars/Jupiter
+    "Alphecca",        # Alpha Coronae Borealis - Venus/Mars
+    "Antares",         # Alpha Scorpii - ROYAL STAR, Mars/Jupiter
+    "Vega",            # Alpha Lyrae - Mercury/Venus
+    "Deneb Algedi",    # Delta Capricorni - Saturn/Mercury
+    
+    # === ROYAL STARS (4th one) ===
+    "Fomalhaut",       # Alpha Piscis Austrini - ROYAL STAR, Venus/Mercury
+    
+    # === OTHER MAJOR STARS ===
+    "Rigel",           # Beta Orionis - Jupiter/Saturn
+    "Betelgeuse",      # Alpha Orionis - Mars/Mercury
+    "Canopus",         # Alpha Carinae - Saturn/Jupiter
+    "Castor",          # Alpha Geminorum - Mercury
+    "Pollux",          # Beta Geminorum - Mars
+    "Denebola",        # Beta Leonis - Saturn/Venus
+    "Zuben Elgenubi",  # Alpha Librae - Saturn/Mars
+    "Zuben Eschamali", # Beta Librae - Jupiter/Mercury
+    "Unukalhai",       # Alpha Serpentis - Saturn/Mars
+    "Altair",          # Alpha Aquilae - Mars/Jupiter
+    "Markab",          # Alpha Pegasi - Mars/Mercury
+    "Scheat",          # Beta Pegasi - Saturn/Mercury
+    "Achernar",        # Alpha Eridani - Jupiter
+    "Mirach",          # Beta Andromedae - Venus
+    "Almach",          # Gamma Andromedae - Venus
+    
+    # === ADDITIONAL TRADITIONAL ===
+    "Polaris",         # Alpha Ursae Minoris - Saturn/Venus
+    "Alphard",         # Alpha Hydrae - Saturn/Venus
+    "Zosma",           # Delta Leonis - Saturn/Venus
+    "Vindemiatrix",    # Epsilon Virginis - Saturn/Mercury
+    "Ras Alhague",     # Alpha Ophiuchi - Saturn/Venus
+    "Nunki",           # Sigma Sagittarii - Jupiter/Mercury
+    "Deneb",           # Alpha Cygni - Venus/Mercury
+    "Alnair",          # Alpha Gruis - Mars/Jupiter
+    "Hamal",           # Alpha Arietis - Mars/Saturn
+    "Dschubba",        # Delta Scorpii - Mars/Saturn
 ]
 
 
