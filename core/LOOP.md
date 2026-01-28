@@ -17,6 +17,8 @@
 - **Branch Decision: HORARY or NATAL?**
     - **If HORARY:** The user is asking a SPECIFIC question about a SPECIFIC moment.
         - **Load:** The Horary chart only. Do NOT load Theodore's Natal.
+        - **Check:** Existing cases at `cases/horary/` for related questions.
+        - **Generate:** Use `python3 environment/scripts/horary_generator.py` if new chart needed.
         - **Technique:** Verdict Layer ONLY. No midpoints. No declinations. No fucking around.
         - **Goal:** Binary answer. Yes or No. Done.
     - **If NATAL:** The user is asking about SELF, CHARACTER, or PATTERN.
