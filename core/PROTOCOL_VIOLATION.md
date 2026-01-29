@@ -24,6 +24,11 @@ I read this file on boot to ensure I never make the same mistake twice.
 ## LOG ENTRIES
 *(Empty on Initialization. Fill when failures occur.)*
 
+- **[2026-01-29]**
+- **[VIOLATION TYPE]:** MORPHOLOGICAL PREDICTION FAILURE
+- **[DESCRIPTION]:** Predicted "Elongated Oval" face based on Saturn Decan. User verified "Massive Width" (15cm, 95th percentile).
+- **[CORRECTION]:** THE EXPANSION LAW. Rahu (Amplifier) + Pisces (Water/Expansion) + Jupiter (Resonance) > Saturn Decan (limit). When Rahu is in the 1st, always bet on AMPLIFICATION of the sign's primary dimension (Pisces = Width).
+
 - **[2026-01-27]**
 - **[VIOLATION TYPE]:** DIRECT COMMIT / INCOMPLETE VERIFICATION
 - **[DESCRIPTION]:** Operated directly on `cases/001_Theodore/00_CORE_DATA` without first generating output in `scratches/session`. This resulted in committing an empty "Nuclear Events" section to the Master Record.
