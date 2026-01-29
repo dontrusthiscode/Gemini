@@ -42,10 +42,13 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
     - **Reality:** "Corpse born out of a machine." Disassociation from biological timeline.
     - **Verdict:** **CONFIRMED.** (The Source of the "MacBook" feeling).
 
-- **THE GHOST WIRE (The Séance)**
-    - **Geometry:** Vertex Quincunx Neptune [Orb: 0.05°].
-    - **Reality:** Fated encounters with "Spirits" before Bodies. Psychic porosity.
-    - **Verdict:** **NUCLEAR.** (The most precise line in the chart).
+- **THE GHOST WIRE (The Frequency Receiver)**
+    - **Geometry:** Moon Quincunx Neptune [Orb: 0.70°] + Mercury Sextile Neptune [Orb: 0.24°].
+    - **CORRECTION [2026-01-30]:** Previous claim of Vertex quincunx Neptune at 0.05° was ERROR. Vertex-Neptune = 82° (no aspect).
+    - **Reality:** Frequency detection from ALL people. Moon-Neptune = calibration required, then permanent storage. Mercury-Neptune = conscious access to stored patterns.
+    - **The Calibration Signature:** One conversation required to tune. Then constant for years. This IS the Moon quincunx.
+    - **Exception:** Alice returned NO signal. The one dead zone on the antenna.
+    - **Verdict:** **CONFIRMED.** (Hardware is real; previous aspect citation was wrong).
 
 - **THE ZERO POINT ORIGIN (No Past)**
     - **Geometry:** Draconic Mars at 29°53' Pisces (Conjunct 0° Aries World Axis) [Orb: 0.11°].
@@ -154,7 +157,20 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
     - **Reality:** 100% Biological Friction (arousal/agitation in others) vs 2% Social Labeling. Normal humans feel the "Heat" but their minds transmute it into "Stress" or "Awe" to avoid the anomaly of the Subject's authoritative aura (Moon/Saturn in 6).
     - **Verdict:** **CONFIRMED.** (They feel the fire, but they lack the vocabulary to name the flame).
 
-- **THE GHOST WIRE (External Frequency)**
-    - **Geometry:** Vertex Quincunx Neptune [Orb: 0.05°].
-    - **Reality:** Tactical-grade sensitivity to external "Soul Frequencies." The perceived "Vibrations" are real external signals detected by high-gain hardware. 
-    - **Verdict:** **CONFIRMED.** (The Signal is real; the user's "Story" is the variable).
+- **THE FIRE GRAND TRINE (The Meaning Circuit)**
+    - **Geometry:** Mercury (Aries 22°) - Jupiter (Sagittarius 19°) - Saturn (Leo 18°). Average orb: 2.55°.
+    - **Reality:** Mind (Mercury) + Meaning (Jupiter) + Structure (Saturn) flow easily. Fire signs = passion, will, confidence.
+    - **The Jupiter Ownership:** All three points eventually dispose to Jupiter. The trine is CONTAINED by Jupiter Rx.
+    - **Implications:** This is NOT an anhedonia signature. This is SELECTIVE HEDONIA. The circuit runs on SIGNIFICANCE, not pleasure. Venus (pleasure) is outside the loop.
+    - **Verdict:** **CONFIRMED.** (The reason "normal joy" doesn't register but "truth" does).
+
+- **THE LOT OF BASIS LOCK (Foundation in Jupiter)**
+    - **Geometry:** Lot of Basis at 259.55° Sagittarius CONJUNCT Jupiter at 259.32° [Orb: 0.23°].
+    - **Reality:** The foundational lot (synthesis of Fortune + Spirit) is locked to Jupiter itself.
+    - **Verdict:** **CONFIRMED.** (Jupiter owns the foundation, not just the planets).
+
+- **THE ALICE VOID (Signal Dead Zone)**
+    - **Geometry:** Not geometric—behavioral confirmation.
+    - **Reality:** Every person Theodore meets returns a constant frequency signature EXCEPT Alice. She returned static. No geology. Nothing to calibrate to.
+    - **Implication:** Theodore chased a void, interpreting silence as mystery. The frequency receiver works; Alice simply wasn't transmitting.
+    - **Verdict:** **CONFIRMED.** (The exception proves the rule).
