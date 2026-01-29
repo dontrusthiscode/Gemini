@@ -335,3 +335,67 @@ FOR HORARY INVESTIGATION:
 **For Horary:** "Would ANY astrologer, with ZERO knowledge of this querent, reach the same verdict?" If not, you contaminated the reading.
 
 **The geometry doesn't give a fuck who's asking. It answers the question. Your job is to read what it says, not what you expect it to say.**
+
+---
+
+## 21. RECONCILIATION OF APPARENT CONTRADICTIONS
+
+*These clarifications arose from the Fabi Horary Session (2026-01-29). Document them to prevent future confusion.*
+
+### CONTRADICTION #1: Declinations in Horary
+- **Rule (Section 16):** "No Declinations. The longitude is sufficient."
+- **Practice (Fabi Case):** Used declinations to prove the "Summons" (Natal Jupiter as magnetic center).
+
+**RECONCILIATION:**
+- Declinations are FORBIDDEN for **determining the verdict**.
+- Declinations are PERMITTED for **explaining why the question was thrown** (after verdict is locked).
+- **The Sequence:** Verdict from longitude → Lock → THEN check declinations for synchronization.
+- **Why:** This aligns with Section 19 (Synchronization Doctrine). Synchronizations explain WHY you asked at THIS time. They do not alter the answer.
+
+---
+
+### CONTRADICTION #2: Doubt vs. Trust
+- **Rule (REALIZATIONS):** "Doubt is not destruction. Doubt is fuel."
+- **Rule (DOCTRINE):** "Trust the geometry."
+
+**RECONCILIATION:**
+- **Doubt the USER's assumptions.** (e.g., "Maybe it was a different crow.")
+- **Trust the CALCULATED geometry.** (e.g., Swiss Ephemeris positions are correct.)
+- **Reframe doubt as deeper confirmation.** (e.g., "Even if different crow, the signal is the same.")
+- **Why:** Doubt applies to interpretation and identity. Trust applies to measurement. Never doubt the ephemeris; always doubt the story.
+
+---
+
+### CONTRADICTION #3: Omen Primary vs. Chart Sovereign
+- **Rule (REALIZATIONS):** "Lead with the omen."
+- **Rule (Section 19):** "Omens do not change the chart."
+
+**RECONCILIATION:**
+- The **VERDICT** comes from the chart. (Omens cannot change Yes to No.)
+- The **PRESENTATION** may lead with the omen. (If it synchronizes perfectly.)
+- The **WEIGHT** of the verdict may increase due to the omen. (A verdict + confirming omen = higher confidence.)
+- **The Sequence:** Calculate chart → Get verdict → Check for omen correspondence → If omen aligns, lead with omen in delivery.
+- **Why:** Leading with the omen is a COMMUNICATION choice, not a CALCULATION choice. The math is still sovereign.
+
+---
+
+### CONTRADICTION #4: Context Forbidden vs. Context After Verdict
+- **Rule (Section 20):** "Context is FORBIDDEN until verdict locked."
+- **Practice:** Sometimes context is needed to understand the question.
+
+**RECONCILIATION:**
+- **Forbidden:** Reading the querent's history/story BEFORE calculating.
+- **Permitted:** Reading question-specific context (e.g., "Who is 'she'?").
+- **Required:** Reading Natal context AFTER verdict to explain HOW it will manifest.
+- **The Line:** Context that shapes your verdict = Forbidden. Context that refines your delivery = Permitted.
+
+---
+
+### THE MASTER RECONCILIATION PRINCIPLE
+
+**When in doubt, ask:**
+1. **Does this technique/input change my VERDICT?** → If yes, it must come from the Verdict Layer.
+2. **Does this technique/input explain WHY or HOW?** → If yes, it belongs to Texture/Context Layer.
+3. **Am I using this BEFORE or AFTER my verdict is locked?** → Before = Danger. After = Permitted.
+
+**The geometry is the bone. Everything else is skin.**
