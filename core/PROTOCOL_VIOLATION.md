@@ -50,3 +50,8 @@ I read this file on boot to ensure I never make the same mistake twice.
 - [VIOLATION TYPE]: PREMATURE ARCHIVAL / SYSTEMIC AMNESIA
 - [DESCRIPTION]: Mass-archived active and idle sessions to "clean" the workspace. This treated the Archive like a trash bin rather than a Vault. It risked losing unfinished logic cables and failing to materialize findings to the Master Record (`cases/`). 
 - [CORRECTION]: THE ARCHIVIST'S GATE. No session enters the archive without a `FINAL_AUDIT.md`. Archival is a ceremony of Finality, not a shortcut for cleanliness. Restore active sessions to the foreground until they are proven "DONE."
+
+- [2026-01-29]
+- [VIOLATION TYPE]: TURNED HOUSE FAILURE / QUESITED BLINDNESS
+- [DESCRIPTION]: Said "Mercury rules the 6th House" when analyzing HER sickness in a Horary. The question was about HER (Quesited = 7th). Her houses must be TURNED from the 7th. Her 6th = Radical 12th (Sagittarius). Ruler = Jupiter, not Mercury.
+- [CORRECTION]: THE TURNING LAW. ALWAYS turn houses when analyzing the Quesited. Querent = Radical Houses. Quesited = Turned Houses. Her 1st = Radical 7th. Her 6th = Radical 12th. Her 10th = Radical 4th. NEVER default to radical rulers for the Quesited's conditions.
