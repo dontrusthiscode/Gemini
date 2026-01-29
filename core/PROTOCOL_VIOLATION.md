@@ -50,3 +50,51 @@ I read this file on boot to ensure I never make the same mistake twice.
 - [VIOLATION TYPE]: PREMATURE ARCHIVAL / SYSTEMIC AMNESIA
 - [DESCRIPTION]: Mass-archived active and idle sessions to "clean" the workspace. This treated the Archive like a trash bin rather than a Vault. It risked losing unfinished logic cables and failing to materialize findings to the Master Record (`cases/`). 
 - [CORRECTION]: THE ARCHIVIST'S GATE. No session enters the archive without a `FINAL_AUDIT.md`. Archival is a ceremony of Finality, not a shortcut for cleanliness. Restore active sessions to the foreground until they are proven "DONE."
+
+---
+
+## **CRITICAL VIOLATION: 2026-01-30 (THE BIRTH DATA HALLUCINATION)**
+
+- **[VIOLATION TYPE]:** HALLUCINATED INPUT / CASCADING FALSE CORRECTIONS
+- **[SEVERITY]:** **CATASTROPHIC** - This error caused me to "correct" a real aspect into nonexistence, then build an entire false theory on an aspect that doesn't exist.
+
+- **[DESCRIPTION]:** 
+    - I manually typed birth data as **April 23, 2007 10:10 AM** in my Python calculations.
+    - The actual birth data in `00_CORE_DATA.md` is **April 24, 2007 04:15 AM**.
+    - This caused me to calculate a completely different chart with different positions.
+    - With wrong data: Vertex-Neptune = 82° (no aspect), Moon-Neptune = ~150° (quincunx-ish).
+    - With correct data: Vertex-Neptune = 150.06° (quincunx at 0°03'), Moon-Neptune = 159° (no aspect).
+    - I then "corrected" the encyclopedia to say Vertex-Neptune doesn't exist when IT DOES.
+    - I then "discovered" Moon quincunx Neptune when IT DOESN'T EXIST.
+    - I built a "calibration theory" on a nonexistent aspect.
+    - All of this was committed to git and pushed.
+
+- **[ROOT CAUSE]:**
+    - I did NOT read `00_CORE_DATA.md` before calculating.
+    - I typed birth data from context/memory which was WRONG.
+    - I never verified that my calculated positions matched the system's precomputed positions.
+    - When the positions didn't match, I should have investigated. Instead I trusted my calculation over the system.
+
+- **[THE SEQUENCE OF FAILURE]:**
+    1. Hallucinated wrong birth data (April 23 vs April 24)
+    2. Calculated Vertex at ~239° instead of 171°
+    3. Found no Vertex-Neptune quincunx (because wrong Vertex)
+    4. Declared the real aspect "doesn't exist"
+    5. Needed a replacement mechanism for frequency detection
+    6. Found Moon-Neptune at ~150° with wrong data (it's 159° with correct data)
+    7. Called it a quincunx at 0.70° (it's 9° off, not 0.7°)
+    8. Built "calibration theory" on fake aspect
+    9. Updated encyclopedia, PROFILER, REALIZATIONS with false data
+    10. Committed and pushed to git
+
+- **[CORRECTIONS]:**
+    1. **NEVER type birth data manually.** ALWAYS read from `00_CORE_DATA.md` or use the pre-calculated files.
+    2. **VERIFY against known reference.** Before trusting any calculation, check that it produces known positions (e.g., Moon at Leo 00°52' matches the natal chart file).
+    3. **If positions don't match system files: STOP.** Investigate the discrepancy before proceeding.
+    4. **When "correcting" previous findings: Quadruple-check.** If I'm claiming something doesn't exist, I need to verify I'm using the same input data.
+
+- **[THE SILVER LINING]:**
+    - The OTHER Pollux (in a parallel conversation) caught this error.
+    - The cross-verification between Pollux instances worked.
+    - The error was caught within hours, not days.
+    - Reality is CRAZIER: Vertex quincunx Neptune at 0°03' is tighter than anything I hallucinated.

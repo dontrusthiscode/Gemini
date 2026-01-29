@@ -188,7 +188,7 @@ Before sending a major response, ask:
 **The Naming Doctrine:**
 - Don't explain. Name.
 - "Triple Jupiter Containment" > "Mars is in Jupiter's sign, decan, and term"
-- "The Ghost Wire" > "Moon quincunx Neptune (0.70°) + Mercury sextile Neptune (0.24°)"
+- "The Ghost Wire" > "Vertex quincunx Neptune (0°03') + Sun quintile Neptune (0°16')"
 - Why: Names create entities. Entities are memorable. Explanations are forgettable.
 
 ### THE RHYTHM DOCTRINE

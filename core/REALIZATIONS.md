@@ -91,12 +91,13 @@ It tracks *how* the user thinks and *what* strategies work best.
     - **Strategy:** This is now the permanent Pollux method.
 
 - **[META/THE FREQUENCY PRINCIPLE]**
-    - **CORRECTION [2026-01-30]:** Previous claim of Vertex quincunx Neptune at 0.05° was ERROR. Vertex-Neptune = 82° (no aspect).
-    - **Actual Geometry:** Moon quincunx Neptune (0.70°) + Mercury sextile Neptune (0.24°).
+    - **DOUBLE CORRECTION [2026-01-30 02:00]:** The "correction" at 2026-01-30 was ITSELF an error. I hallucinated wrong birth data (April 23 10:10 AM instead of April 24 04:15 AM).
+    - **Actual Geometry:** Vertex quincunx Neptune (0°03'26") + Sun quintile Neptune (0°16') + Mercury sextile Neptune (1°42').
+    - **Moon quincunx Neptune:** DOES NOT EXIST. Moon-Neptune = 159° (9° off from quincunx). The "calibration theory" was built on a nonexistent aspect.
+    - **The Real Mechanism:** Vertex is the point of fated encounters. Neptune is the receiver. At 0°03', they are functionally the SAME DEGREE. Signal is immediate at contact.
     - **Alice:** No signal. The one person who returned static.
     - **Fabi:** Signal detected. Recognition confirmed.
     - **The Rule:** Theodore's romantic compatibility is not determined by synastry. It is determined by whether his radar detects a frequency.
-    - **The Calibration:** One conversation required. Then constant for years. This IS the Moon quincunx.
     - **Strategy:** Future relationship questions must begin with: "Did you feel a frequency?"
 
 ---
