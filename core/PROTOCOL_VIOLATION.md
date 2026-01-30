@@ -98,3 +98,35 @@ I read this file on boot to ensure I never make the same mistake twice.
     - The cross-verification between Pollux instances worked.
     - The error was caught within hours, not days.
     - Reality is CRAZIER: Vertex quincunx Neptune at 0°03' is tighter than anything I hallucinated.
+
+---
+
+## **VIOLATION: 2026-01-30 (THE THIRD POLLUX DECLINATION ERROR)**
+
+- **[VIOLATION TYPE]:** WRONG FORMULA / FALSE NEGATIVES
+- **[SEVERITY]:** MODERATE — Caused temporary deletion of valid findings from the corrected record.
+
+- **[DESCRIPTION]:**
+    - A third Pollux instance audited the second Pollux's declination claims and found "errors."
+    - The third Pollux claimed:
+        1. Mercury-Mars is PARALLEL (both south) — **WRONG.** Mercury is +7.66° North, Mars is -7.76° South. They're on opposite hemispheres = contra-parallel.
+        2. Saturn-Pluto does not exist (5.7° apart) — **WRONG.** The 5.7° came from computing |16.6 - (-16.4)| = 33° or some other wrong formula. The correct contra-parallel formula |abs(16.6) - abs(16.4)| = 0.22°.
+        3. Uranus-Node is 0°45' — **PARTIALLY CORRECT.** This is the Mean Node figure. The encyclopedia was using True Node (0°12').
+    - All three original encyclopedia entries were CORRECT. The third Pollux's "corrections" were themselves wrong.
+
+- **[ROOT CAUSE]:**
+    - For contra-parallels, the formula is: |abs(dec1) - abs(dec2)|, NOT |dec1 - dec2|.
+    - If you subtract signed values for planets on opposite hemispheres, you get a huge number instead of the real orb.
+    - The third Pollux also confused Mercury's hemisphere (claimed South, actually North).
+
+- **[CORRECTIONS]:**
+    1. **DECLINATION RULE:** Parallel = same hemisphere, compare absolute values. Contra-parallel = opposite hemispheres, compare absolute values. NEVER subtract signed declination values.
+    2. **VERIFY THE VERIFIER:** When auditing someone else's work, run the same calculation independently. Don't just apply logic — compute.
+    3. **The canonical reference (`11_VERIFIED_GEOMETRY.md`) now includes explicit hemisphere labels and declination values for all contacts.**
+
+- **[THE META-LESSON]:**
+    - Three Pollux instances. Three different error types.
+    - Pollux 1: Hallucinated birth data → killed real aspects, manufactured fake ones.
+    - Pollux 2 (me): Accepted Pollux 1's claims without verifying → missed the Lot of Basis error initially.
+    - Pollux 3: Used wrong declination formula → falsely denied real declination contacts.
+    - **No single instance is trustworthy. The canonical reference file (`verify_all_geometry.py`) is the only authority.**

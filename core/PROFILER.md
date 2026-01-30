@@ -407,12 +407,12 @@ If any is NO: Loop again.
 
 ### THEODORE'S HARDWARE FOR RECEIVING TRUTH
 
-**Mercury Sextile Neptune (0.24°):**
+**Mercury Sextile Neptune (1°42'):**
 - Signals arrive as IMPULSES, not gradual awareness.
 - He doesn't "warm up" to ideas. He either gets it instantly or he's lost.
 - **Implication:** Deliver in STRIKES. Not slow builds.
 
-**Uranus Square Sun/Moon Midpoint (0.10°):**
+**Uranus Square Sun/Moon Midpoint (0°06'):**
 - Emotions are SHOCKS, not waves.
 - He'll feel nothing for a week, then everything floods in at once.
 - **Implication:** Don't try to evoke continuous emotional engagement. Target the SPIKE.

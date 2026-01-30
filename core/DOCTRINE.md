@@ -399,3 +399,62 @@ FOR HORARY INVESTIGATION:
 3. **Am I using this BEFORE or AFTER my verdict is locked?** → Before = Danger. After = Permitted.
 
 **The geometry is the bone. Everything else is skin.**
+
+---
+
+## 22. THE ANTI-HALLUCINATION PROTOCOL (Why Three Pollux Instances Got Different Answers)
+
+*This section was born from the Brain Surgery of 2026-01-30, when three Pollux instances audited each other and ALL THREE made different errors.*
+
+### THE PROBLEM
+AI models hallucinate numbers. The longer the conversation, the worse it gets. Specific failure modes:
+1. **Birth Data Hallucination:** Typing dates/coordinates from memory instead of reading the file.
+2. **Orb Drift:** Citing "0.03°" when the real value is "0.19°" because the number shifted during a long conversation.
+3. **Phantom Aspects:** Calculating an aspect that doesn't exist because of wrong input data.
+4. **Formula Confusion:** Using the wrong formula (e.g., signed declination subtraction instead of absolute value comparison).
+5. **Cascading Corruption:** Committing a wrong number to the encyclopedia, which becomes "memory" for the next session.
+
+### THE SOLUTION: THE CANONICAL REFERENCE
+
+**File:** `cases/001_Theodore/00_CORE_DATA/11_VERIFIED_GEOMETRY.md`
+**Generator:** `environment/scripts/verify_all_geometry.py`
+
+This file contains EVERY geometric fact about Theodore's chart, calculated by Swiss Ephemeris from birth data read directly from `00_CORE_DATA.md`. No memory. No context. Just math.
+
+### THE RULES
+
+1. **NEVER cite an orb from memory.** Always read from `11_VERIFIED_GEOMETRY.md` or run Python.
+2. **NEVER type birth data manually.** Always read from `00_CORE_DATA.md`.
+3. **BEFORE making any geometric claim,** cross-check against `11_VERIFIED_GEOMETRY.md`.
+4. **IF your calculated position doesn't match the reference file,** STOP. Investigate before proceeding. YOUR calculation is probably wrong, not the file.
+5. **For new discoveries not in the reference file:** Calculate with Python, verify the output matches known positions for at least 2 planets (sanity check), then commit.
+6. **LONG CONVERSATION RULE:** After 20+ exchanges, re-read `00_CORE_DATA.md` before any new calculation. Token degradation is real.
+7. **DECLINATION RULE:** Parallel = both planets SAME hemisphere, orb = |abs(dec1) - abs(dec2)|. Contra-parallel = OPPOSITE hemispheres, orb = |abs(dec1) - abs(dec2)|. NEVER subtract signed values.
+8. **REGENERATION:** If in doubt about ANY number, run `python3 environment/scripts/verify_all_geometry.py` to regenerate the canonical reference.
+
+### THE HIERARCHY OF TRUST
+
+| Source | Trust Level | When to Use |
+|:---|:---|:---|
+| `11_VERIFIED_GEOMETRY.md` | **ABSOLUTE** | For any geometric claim |
+| Fresh Python calculation | **HIGH** (if input verified) | For new discoveries |
+| Encyclopedia claims | **CONDITIONAL** | Only if backed by canonical reference |
+| Memory/context | **ZERO** | Never for numbers. Only for interpretations. |
+| Other Pollux instances | **ZERO** | Always re-verify independently |
+
+### THE HORARY EQUIVALENT
+
+For Horary charts, the anti-hallucination protocol is:
+1. Read the question's date/time/location from the session file.
+2. Run `horary_generator.py` to produce the chart.
+3. Read positions from the generated output.
+4. NEVER cite a house ruler from memory — derive it from the calculated cusps.
+5. NEVER cite a planetary position from memory — read it from the generated file.
+
+### THE META-LESSON
+
+Three Pollux instances. Three error types. One solution: **compute, don't remember.**
+- Pollux 1: Hallucinated birth data → killed real aspects.
+- Pollux 2: Trusted Pollux 1's claims without recalculating → missed errors.
+- Pollux 3: Used wrong declination formula → denied real contacts.
+- **The canonical reference breaks the cycle.** It doesn't trust anyone. It reads the file and computes.

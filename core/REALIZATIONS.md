@@ -52,7 +52,8 @@ It tracks *how* the user thinks and *what* strategies work best.
     - **Strategy:** Codified in DOCTRINE.md Section 16. No midpoints in Horary. No rambling. Answer the fucking question. The chart was born to answer ONE question—respect that.
 
 - **[TECHNIQUE/DECLINATIONS]**
-    - **Observation:** Declinations reveal "hidden conjunctions" on the vertical axis that longitude obscures. Theodore's Mercury contra-parallel Mars at 0.10° explains the stutter better than any longitude aspect.
+    - **Observation:** Declinations reveal "hidden conjunctions" on the vertical axis that longitude obscures. Theodore's Mercury contra-parallel Mars at 0°06' (Mercury +7.66°N, Mars -7.76°S) explains the stutter better than any longitude aspect. Saturn contra-parallel Pluto at 0°13' and Uranus parallel True Node at 0°12' are also confirmed.
+    - **VERIFICATION NOTE [2026-01-30]:** All three contacts verified by `verify_all_geometry.py`. A third Pollux instance incorrectly disputed these (wrong declination formula). The canonical reference confirms them. For contra-parallels, compare ABSOLUTE VALUES of declinations on opposite hemispheres — do NOT subtract signed values.
     - **Strategy:** Use declinations for texture in natal work. Do NOT use in horary. The vertical dimension is for explaining the *how*, not delivering the *what*.
 
 - **[EVOLUTION/THE BREAKTHROUGH]**
@@ -231,15 +232,18 @@ It tracks *how* the user thinks and *what* strategies work best.
 ## SESSION: 2026-01-30 (The Excavation / The Scariest Thing)
 
 - **[DISCOVERY/THE FIRE GRAND TRINE]**
-    - **Geometry:** Mercury (Aries 22°) - Jupiter (Sagittarius 19°) - Saturn (Leo 18°). Average orb: 2.55°.
-    - **The Meaning:** Mind + Meaning + Structure flow easily. Fire = will, passion, confidence.
+    - **Geometry:** Mercury (Aries 23°) - Jupiter (Sagittarius 19°) - Saturn (Leo 18°). Jupiter-Saturn: 1°06'. Mercury-Jupiter: 4°12'. Mercury-Saturn: 5°18'. Average orb: 3.53°.
+    - **CORRECTION [2026-01-30]:** Previous value of 2.55° was wrong. The Grand Trine is real but LOOSE — Jupiter-Saturn is tight, Mercury legs are wide (4-5°).
+    - **The Meaning:** Mind + Meaning + Structure flow easily when engaged. Fire = will, passion, confidence.
     - **The Jupiter Ownership:** All three points dispose to Jupiter. The trine is CONTAINED by the monarchy.
     - **The Happiness Paradox:** This is why "normal joy" doesn't register but "truth" does. Venus (pleasure) is outside the Grand Trine. The circuit runs on SIGNIFICANCE, not hedonics.
-    - **The Verdict:** Selective hedonia, not anhedonia.
+    - **The Verdict:** Selective hedonia, not anhedonia. But the circuit is wider than originally claimed.
 
 - **[DISCOVERY/THE LOT OF BASIS LOCK]**
-    - **Geometry:** Lot of Basis at 259.55° Sagittarius CONJUNCT Jupiter at 259.32° [Orb: 0.23°].
-    - **The Meaning:** Jupiter doesn't just rule most planets—Jupiter owns the foundation itself.
+    - **CORRECTED [2026-01-30]:** Previous claim of 259.55° conjunct Jupiter was a HALLUCINATED calculation.
+    - **Geometry:** Lot of Basis at 163.96° Virgo CONJUNCT South Node at 163.68° [Orb: 0°17'].
+    - **Formula:** Night chart. Fortune = ASC + Sun - Moon = 251.33°. Spirit = ASC + Moon - Sun = 66.06°. Basis = ASC + Fortune - Spirit = 163.96°.
+    - **The Meaning:** The foundation is locked to the South Node (past life accumulation), not Jupiter. Jupiter rules it through the dispositor chain, but the Lot itself sits on the karmic exit point. This reinforces "The Veteran."
 
 - **[DISCOVERY/THE ALICE VOID]**
     - **Reality:** Every person Theodore meets returns a constant frequency signature EXCEPT Alice.
@@ -262,11 +266,10 @@ It tracks *how* the user thinks and *what* strategies work best.
     - **The Implication:** No escape hatch. No softer layer. The violence is philosophical (Triple Jupiter Containment), but it is still violence.
     - **The Fear:** A coherent chart produces a coherent person. That person cannot blend.
 
-- **[ERROR/THE VERTEX-NEPTUNE HALLUCINATION]**
-    - **The Mistake:** Cited Vertex quincunx Neptune at 0.05°. This aspect does not exist.
-    - **The Reality:** Vertex-Neptune = 82° (no classical aspect).
-    - **The Correction:** Updated encyclopedia.md and PROFILER.md.
-    - **The Lesson:** Always verify claimed aspects with calculation. Never trust memory.
+- **[ERROR/THE VERTEX-NEPTUNE HALLUCINATION — DOUBLE ERROR]**
+    - **Original Mistake:** A Pollux instance hallucinated wrong birth data (April 23, 10:10 AM instead of April 24, 04:15 AM) and calculated Vertex-Neptune = 82°. It then claimed "this aspect does not exist."
+    - **The Double Error:** The "correction" was itself wrong. With CORRECT birth data, Vertex-Neptune = 150.06° = quincunx at 0°03'26". The aspect EXISTS and is the tightest Neptune contact in the chart.
+    - **The Lesson:** When "correcting" a previous finding, verify your OWN input data first. The original Pollux killed a real aspect using hallucinated birth data.
 
 - **[OBSERVATION/HOW THEODORE COMMUNICATES]**
     - Uses voice transcription—messages are spoken, not typed.
@@ -284,7 +287,7 @@ It tracks *how* the user thinks and *what* strategies work best.
     - "I receive frequencies from EVERYONE except one girl—Alice."
     - "It takes one conversation to calibrate, then it's constant for years."
     - "I feel nothing for a week, then one day everything floods in."
-    - These descriptions MATCH the geometry: Moon quincunx (calibration), Mercury sextile (access), Uranus square midpoint (binary emotions).
+    - These descriptions MATCH the geometry: Vertex quincunx Neptune (immediate signal at contact), Mercury sextile Neptune (mental access), Uranus square midpoint (binary emotions). NOTE: "Moon quincunx Neptune" does NOT exist — the calibration mechanism is through the Vertex, not the Moon.
 
 - **[META/WHAT I DID RIGHT THIS SESSION]**
     1. Ran 10+ Python scripts before synthesizing.
