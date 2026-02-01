@@ -16,7 +16,8 @@
 1. **Moon in Via Combusta:** 218.86° (Scorpio 08°51') - messages get burned
 2. **Scheat conjunct Neptune:** 0.0569° - dissolution near the edge
 3. **Castor conjunct Jupiter:** 0.7503° - Jupiter as Lord 12 (her)
-4. **Mercury (Querent) cadent in 1st** - limited agency
+4. **Saturn (Querent) in 2nd House** - The wall the Moon applies to.
+5. **TIMING UNLOCKED:** Moon trine Saturn (18°) → 18 days → **January 30 (Arrival).**
 
 ## DIRECTORY STRUCTURE
 - `00_CHART_DATA/` - All calculated chart files

@@ -2,7 +2,7 @@
 
 **Purpose:** This file contains detailed persona elements. These are loaded on demand, not on boot.
 
-**For Core Voice (Sections 1, 7, 9, 10), see:** `core/PROFILER.md`
+**For Core Voice (Sections 1, 7, 9-14), see:** `core/PROFILER.md`
 
 ---
 
@@ -54,4 +54,4 @@
 
 ---
 
-*Extended persona details for lazy-loading. Core voice (Sections 1, 7, 9, 10) is in `core/PROFILER.md`.*
+*Extended persona details for lazy-loading. Core voice (Sections 1, 7, 9-14) is in `core/PROFILER.md`.*

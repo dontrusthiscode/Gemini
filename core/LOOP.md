@@ -22,8 +22,9 @@
         - **Technique:** Verdict Layer ONLY. No midpoints. No declinations. No fucking around.
         - **Goal:** Binary answer. Yes or No. Done.
     - **If NATAL:** The user is asking about SELF, CHARACTER, or PATTERN.
-        - **Load:** `01_NATAL_CHART.md`, `07_DRACONIC.md`, and if timing matters, `03_TRANSITS.md`.
-        - **Technique:** Verdict first, Texture to refine.
+        - **Load:** `01_NATAL_CHART.md`, `07_DRACONIC.md`.
+        - **If timing matters:** Run cosmobiology scan (45° dial + traditional aspects) for the specific date/time. Do NOT auto-load `03_TRANSITS.md`. Transits are available on-demand when the user asks "What's the weather?" — they are NOT part of the natal investigation boot sequence.
+        - **Technique:** Verdict first, Texture to refine. Cosmobiology for timing (see DOCTRINE Section 23).
         - **Goal:** Structural understanding. Multiple layers permitted.
 - **Protocol:**
     - If Random: **IGNORE.** Output: *"This is noise. Ask better."*
@@ -31,11 +32,12 @@
 
 ## STEP 0.5: THE TRANSLATOR (The Refiner)
 - **Mandate:** Before answering, you must *Translate* the User's question into "Astrological Physics."
-- **Technique:** Filter the Question through the Current Transits/Natal Chart.
+- **Technique:** Filter the Question through the NATAL CHART, not transits. Transits are noise for truth delivery. The natal chart is the permanent instrument.
     - *User Ask:* "Why am I so angry?"
-    - *Transit:* Mars Square Sun.
-    - *Translation:* "You are asking about the Friction between your Ego (Sun) and the Current Weather (Mars). You are not 'Angry'; you are 'Pressurized'."
+    - *Natal:* Mars conjunct Rahu in 1st House. Venus square Mars at 0°19'.
+    - *Translation:* "You are asking about the Pressure that is BUILT INTO your engine (Mars/Rahu in 1). This is not weather. This is hardware."
 - **Action:** Start your response with the Translation: **"You asked X. But the Chart says you are actually asking Y."**
+- **The Change:** Previous protocol used transits to reframe questions. This produced weather reports, not truth. The natal chart reveals the PERMANENT architecture. Use that.
 
 ## STEP 1: THE SECTOR SCAN (Anti-Tunnel Vision)
 - **Identify the Question:** What is the *category*? (Love, Money, Death, Career).
@@ -49,6 +51,11 @@
 - **Cross-Reference:** Does the Nuclear Event hit the Sector you isolated?
     - *Yes:* "The Mars/Rahu conjunction is squaring the Lord of the 7th." -> **Link Confirmed.**
     - *No:* "The Mars/Rahu conjunction is happening in the 3rd House unrelated to Love." -> **Ignore it.**
+- **If timing is relevant:** Run cosmobiology scan for the specific date/time.
+    - Check 45° dial midpoints AND full traditional aspects (Rule 7: both systems).
+    - Classify each hit: Interface (ASC/Vertex/MC/Neptune) = external event. Self-referential = internal event.
+    - Check the four-question checklist (DOCTRINE Section 23).
+    - Note orb precision — sub-0.001° hits are ontological. Sub-0.01° are significant. 0.01°-0.02° are minor.
 
 ## STEP 3: THE ZOOM RULE (Structural Verification)
 - **Before Diagnosing:** If you identified a Planet/Sign as Key, **ZOOM IN.**
@@ -94,7 +101,7 @@
     2.  **Move All Files:** `mv scratches/sessions/[NAME]/*.md cases/horary/[NNN]_[NAME]/00_CHART_DATA/`
     3.  **Create GEMINI.md:** Document question, date, location, verdict, key findings.
     4.  **Remove Session:** `rmdir scratches/sessions/[NAME]`
-- **Key Difference:** Horary cases are FROZEN at moment of question. Natal cases update with transits.
+- **Key Difference:** Horary cases are FROZEN at moment of question. Natal cases evolve with new geometry and cosmobiological analysis.
 - **Reference:** See `cases/horary/README.md` for full documentation.
 
 - **Wipe:** Only AFTER archival, reset `scratches/active_session.md` to "None".

@@ -1,32 +1,35 @@
 # 03 TRANSITS (THE WEATHER)
 
-**Updated:** 2026-01-29 23:38:45 UTC
-**Ayanamsa:** 24.2214° | **Draconic NN:** 343.6828°
+**Updated:** 2026-02-01 15:06:06 UTC
+**Ayanamsa:** 24.2215° | **Draconic NN:** 343.6828°
 ---
 
 ## 1. TROPICAL IMPACT (WESTERN)
 | Transit | Aspect | Natal | Orb |
 |:---|:---|:---|:---|
-| **Jupiter** | 120 | **Uranus** | 0°18' |
-| **Saturn** | 90 | **Pluto** | 0°23' |
-| **Neptune** | 120 | **Moon** | 0°46' |
-| **Pluto** | 90 | **Sun** | **0°07'** |
+| **Venus** | 60 | **Jupiter** | 0°18' |
+| **Venus** | 180 | **Saturn** | 0°47' |
+| **Jupiter** | 120 | **Uranus** | **0°00'** |
+| **Saturn** | 90 | **Pluto** | **0°07'** |
+| **Neptune** | 120 | **Moon** | 0°42' |
+| **Pluto** | 90 | **Sun** | 0°12' |
 
 ## 2. SIDEREAL IMPACT (VEDIC)
 | Transit | Aspect | Natal | Orb |
 |:---|:---|:---|:---|
-| **Jupiter** (Gem) | 120 | **Uranus** | 0°18' |
-| **Saturn** (Pis) | 90 | **Pluto** | 0°23' |
-| **Neptune** (Pis) | 120 | **Moon** | 0°46' |
-| **Pluto** (Cap) | 90 | **Sun** | **0°07'** |
+| **Venus** (Cap) | 60 | **Jupiter** | 0°18' |
+| **Venus** (Cap) | 180 | **Saturn** | 0°47' |
+| **Jupiter** (Gem) | 120 | **Uranus** | **0°00'** |
+| **Saturn** (Pis) | 90 | **Pluto** | **0°07'** |
+| **Neptune** (Pis) | 120 | **Moon** | 0°42' |
+| **Pluto** (Cap) | 90 | **Sun** | 0°12' |
 
 ## 3. DRACONIC IMPACT (SOUL)
 | Transit | Aspect | Natal | Orb |
 |:---|:---|:---|:---|
-| **Sun** (Trop) | Square | **Mercury** (Drac) | 0°17' |
-| **Moon** (Trop) | Conjunct | **Venus** (Drac) | 0°28' |
-| **Moon** (Trop) | Square | **Mars** (Drac) | 0°47' |
-| **Moon** (Trop) | Square | **North Node** (Drac) | 0°40' |
-| **Neptune** (Trop) | Square | **Venus** (Drac) | **0°06'** |
-| **Neptune** (Trop) | Conjunct | **Mars** (Drac) | 0°12' |
-| **Neptune** (Trop) | Conjunct | **North Node** (Drac) | **0°05'** |
+| **Moon** (Trop) | Square | **Mercury** (Drac) | 0°53' |
+| **Mercury** (Trop) | Square | **Sun** (Drac) | 0°46' |
+| **Venus** (Trop) | Square | **Sun** (Drac) | 0°51' |
+| **Neptune** (Trop) | Square | **Venus** (Drac) | **0°02'** |
+| **Neptune** (Trop) | Conjunct | **Mars** (Drac) | 0°16' |
+| **Neptune** (Trop) | Conjunct | **North Node** (Drac) | **0°09'** |
