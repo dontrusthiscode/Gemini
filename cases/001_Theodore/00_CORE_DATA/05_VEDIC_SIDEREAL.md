@@ -1,6 +1,6 @@
 # 04 VEDIC CHART (SIDEREAL LAHIRI)
 
-**Calculated:** 2026-02-01 17:06:06
+**Calculated:** 2026-02-01 17:39:09
 **Mode:** Sidereal (Lahiri Ayanamsa: 23.9592°)
 ---
 
