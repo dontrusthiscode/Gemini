@@ -149,6 +149,21 @@ It stores "Closed Loops"—facts that have been verified by geometry and reality
     - **Manifestation:** The Lord of Sex (Venus = 8th ruler) is at direct war with the Lord of Body (Mars = 1st). Desire does not exist without friction. The native eroticizes *conflict*, *resistance*, and *struggle*. Attraction requires tension; harmony is boring.
     - **Verdict:** **CONFIRMED.** (Desire = Combat).
 
+- **THE LILITH PUBLICITY (The Envy Signature)**
+    - **Geometry:** Lilith (Libra 7th) Sextile MC [Orb: 0°27'] + Lilith Trine Neptune [Orb: 1°08'].
+    - **Reality:** The shadow feeds the public image. Refusal to conform (Lilith) flows smoothly into reputation (MC). The "Luciferian" effect where darkness elevates status rather than punishing it.
+    - **Verdict:** **CONFIRMED.** (What others suppress, Theodore broadcasts for power).
+
+- **THE DARK CHARM TRIGGER (The Midpoint Lock)**
+    - **Geometry:** Venus Conjunct Mars/Rahu Midpoint [Orb: < 15 arcminutes].
+    - **Reality:** Love, Charm, and Values (Venus) sit directly on the center of the Hunger Engine (Mars/Rahu). Attraction is mechanically wired to aggression/obsession.
+    - **Verdict:** **CONFIRMED.** (The "Dangerous Charisma" is not a vibe; it is a midpoint contact).
+
+- **THE LUCIFERIAN NOVILE (The Initiation)**
+    - **Geometry:** Sun Novile (40°) Venus [Orb: 0.38°].
+    - **Reality:** The 9th Harmonic connection. Represents "Initiation after Completion." A subtle but fated link between Identity (Sun) and Desire (Venus). Not the standard conjunction, but a higher-frequency resonance.
+    - **Verdict:** **CONFIRMED.** (Radiance through friction, initiation through ending).
+
 - **THE SMOKING MECHANISM (Thermodynamic Vent)**
     - **Geometry:** Venus (Gemini, 3rd House = Hands/Lungs) Square Mars (Pisces = Steam) [Orb: 0.31°].
     - **Physics:** Mars + Rahu in Pisces = Fire + Obsession + Water = STEAM. Venus-Mars square = Friction demands a Vent. Venus in Gemini = Vent is through HANDS and LUNGS.
