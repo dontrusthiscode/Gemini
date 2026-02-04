@@ -714,12 +714,8 @@ def main():
         f.write(md)
     print(f"\nOutput written to: {OUTPUT_PATH}")
 
-    # Also write to session folder for auditing
-    session_path = os.path.join(PROJECT_ROOT, 'scratches', 'sessions', '0019_Brain_Surgery_20260130', '11_VERIFIED_GEOMETRY.md')
-    os.makedirs(os.path.dirname(session_path), exist_ok=True)
-    with open(session_path, 'w') as f:
-        f.write(md)
-    print(f"Copy written to: {session_path}")
+    # Output is written only to the canonical location (OUTPUT_PATH).
+    # No session-specific copies — prevents ghost directory recreation.
 
 
 if __name__ == '__main__':

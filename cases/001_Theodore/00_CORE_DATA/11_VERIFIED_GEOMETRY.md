@@ -1,6 +1,6 @@
 # 11 VERIFIED GEOMETRY (CANONICAL REFERENCE)
 
-**Generated:** 2026-02-01 04:14:03
+**Generated:** 2026-02-04 20:49:37
 **Method:** Swiss Ephemeris (Moshier) via pyswisseph
 **Birth Data:** Read from `00_CORE_DATA.md` (NEVER hardcoded)
 **JD:** 2454214.552083

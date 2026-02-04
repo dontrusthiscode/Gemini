@@ -6,7 +6,6 @@ __pycache__/
 # Ephemeral
 scratches/harmonization_build/
 scratches/active_session.md
-.gemini/
 
 # Environment
 .venv/

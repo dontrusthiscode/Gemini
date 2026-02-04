@@ -28,11 +28,13 @@ The User hypothesized she might have liked him earlier. The Geometry proved the 
     *   **Fact:** The Sickness physically predates the Obsession.
 
 ### C. The Terror (The Algol Gate)
-*   **The Fact:** The User's 5th House Cusp (Horary) is at **26°46' Taurus.**
-*   **The Star:** Algol (Demon Star) is at **26°31' Taurus.**
-*   **The Conjunction:** Exact.
-*   **Meaning:** The Subject walked through a "Demon Door" to fall in love. Explains the terror/paralysis.
-*   **Safety Check:** User's Natal Chart does **NOT** have this conjunction. It was specific to the Horary Moment.
+*   **CRITICAL CORRECTION [Session 0024, 2026-02-02]:** Previous Pollux claimed 5th House Cusp at 26°46' Taurus. **WRONG.** Actual 5th cusp = **23°48' Taurus** (from `01_HOUSES.md`). Algol at 26°32' is IN the 5th house but 2.73° past the cusp — NOT conjunct it. The "Demon Door" on the cusp was a hallucinated degree.
+*   **What IS real (verified by Swiss Ephemeris):**
+    1.  **Algol conjunct Uranus (5th house):** Algol 26°32' Tau, Uranus 27°41' Tau. Orb: **1°09' (69 arcmin).** Uranus is IN the 5th house (romance). Algol ON Uranus in the 5th = the romance is electrified by the Gorgon. The love affair carries Medusa energy — involuntary fascination, the kind where looking turns you to stone.
+    2.  **Algol sextile Saturn (Theodore):** Algol 26°32' Tau, Saturn 26°55' Pis. Orb: **0°23' (22.6 arcmin).** TIGHT. Saturn = Theodore (ASC ruler, Capricorn rising). Algol SEXTILES Theodore's significator = the Demon's Head has a flowing, supportive connection to Theodore. The Gorgon quality is an ASSET in this relationship, not a liability. The Medusa face works FOR him.
+*   **Meaning:** Fabi's experience of Theodore already carries the Medusa signature — she cannot look away, the image burns permanent, the fascination is involuntary and frightening. This is STRUCTURAL to the connection. The Algol-Uranus conjunction in the 5th stamps the romance with horror-fascination. The Algol-Saturn sextile means the horror serves Theodore.
+*   **Connection to Natal:** Theodore's progressed Sun is approaching Algol (4.88° away at horary time). The Gorgon Mutation hasn't arrived natally. But in the horary of this relationship, Algol is already operative. The relationship runs ahead of Theodore's own progression.
+*   **Safety Check:** User's Natal Chart does **NOT** have Algol conjunct any planet. It is specific to the Horary AND to the progressed timeline.
 
 ---
 
@@ -200,7 +202,13 @@ I was given the task of analyzing a Horary chart, and I ended up analyzing a cre
 **The Correction:** Manually calculated Algol position from J2000 + precession.
 **The Lesson:** Either install the star catalog or maintain a local lookup table.
 
-### D. The "Rarity = Meaning" Trap
+### D. The 5th House Cusp Hallucination (CRITICAL — caught Session 0024)
+**The Mistake:** Claimed the 5th House Cusp was at 26°46' Taurus (conjunct Algol).
+**The Fact:** Actual 5th cusp = 23°48' Taurus (per `01_HOUSES.md`). The cusp degree was hallucinated to match Algol. Algol is 2.73° past the cusp.
+**What survived the correction:** Algol IS in the 5th house. Algol conjunct Uranus (1°09') and sextile Saturn (0°23') are REAL and verified. The Algol connection to the relationship is valid — but through planetary contacts, not the cusp.
+**The Lesson:** NEVER trust a degree you didn't read directly from the house table. Cross-reference every cusp against `01_HOUSES.md`.
+
+### E. The "Rarity = Meaning" Trap
 **The User's Correction:** "Rarity ain't shit. What does it MEAN?"
 **The Lesson:** Never lead with probability. Lead with **correspondence** and **coherence**. The chart's power is in how its layers stack, not in how rare each layer is individually.
 
